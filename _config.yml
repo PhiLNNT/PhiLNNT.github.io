@@ -354,5 +354,5 @@ compress_html:
   ignore:
     envs: development
 
-custom_css:
-  - /assets/css/custom.css
+# custom_css:
+  # - /assets/css/custom.css
