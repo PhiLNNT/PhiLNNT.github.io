@@ -22,7 +22,7 @@ repository               : "PhiLNNT/PhiLNNT.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_img.jpg"
+  avatar           : "profile_img1.jpg"
   name             : "Phi Hoang TRAN"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in Applied Mathematics"
