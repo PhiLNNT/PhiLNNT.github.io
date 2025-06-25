@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in PDEs and Numerical Analysis, University of Rennes, 2028 (expected)
+* M.S. in Applied Mathematics, University of Tours, 2025
+* B.S. in Mathematics Teacher Education, Ho Chi Minh City University of Education, 2023
 
 Work experience
 ======
