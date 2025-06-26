@@ -8,7 +8,7 @@ date: 2023-09-01
 location: "Ho Chi Minh, Vietnam"
 ---
 
- Employment as a Mathematics teacher.
+Employment as a Mathematics teacher.
 
 Managed academic activities for high school students, including lesson planning and organizing learning sessions
 ======
