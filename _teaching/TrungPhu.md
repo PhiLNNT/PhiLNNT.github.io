@@ -2,7 +2,7 @@
 title: "Mathematics Teacher Intern"
 collection: teaching
 type: "Pre-Calculus and Geometry"
-permalink: /teaching/Mathematics_Teacher
+permalink: /teaching/TrungPhu
 venue: "Trung Phu High school"
 date: 2022-02-01
 location: "Ho Chi Minh, Vietnam"
