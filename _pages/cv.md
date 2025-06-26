@@ -111,8 +111,8 @@ Optimization, variational analysis, numerical analysis, PDEs, and machine learni
 ## References
 
 - **Prof. Mounir Haddou** — INSA Rennes  
-  📧 mounir.haddou@insa-rennes.fr | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)  
+  mounir.haddou@insa-rennes.fr | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)  
 - **M.S. Tran Ba Dat** — Wayne State University  
-  📧 tranbadat@wayne.edu | [Scholar](https://scholar.google.com/citations?user=9V5qSRcAAAAJ)  
+  tranbadat@wayne.edu | [Scholar](https://scholar.google.com/citations?user=9V5qSRcAAAAJ)  
 - **Prof. Pham Duy Khanh** — HCMUE  
-  📧 khanhpd@hcmue.edu.vn | [Scholar](https://scholar.google.com.vn/citations?user=lkp8e5UAAAAJ)
+  khanhpd@hcmue.edu.vn | [Scholar](https://scholar.google.com.vn/citations?user=lkp8e5UAAAAJ)
