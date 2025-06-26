@@ -4,7 +4,7 @@ collection: teaching
 type: "Pre-Calculus and Geometry"
 permalink: /teaching/Mathematics_Teacher.md
 venue: "Thang Tien Thang Long Education Joint Stock Company"
-date: September, 2023 -- present
+date: September, 2023 to present
 location: "Ho Chi Minh City, Vietnam"
 ---
 
