@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-## Education
-
+Education
+======
 - **French-Vietnamese Master of Applied Mathematics**, HCM University of Science & University of Tours  
   *Aug 2024 – expected Jul 2025*  
   - Studied advanced courses at HCMUS (Aug 2024 – Mar 2025)  
@@ -21,8 +21,8 @@ redirect_from:
   - Graduation thesis on subgradient methods  
   - Participated in academic competitions and extracurricular activities
 
-## Research Experience
-
+Research Experience
+======
 - **Master 2 Intern**, IRMAR & INSA Rennes  
   *Apr – Jun 2025*  
   *Complementarity Problems and Absolute Value Equations: Analysis and Comparison*  
@@ -51,18 +51,21 @@ redirect_from:
   - Implemented primal and dual SVMs via subgradient methods  
   Advisor: Prof. Tran Thai An Nghia
 
-## Teaching Experience
+Teaching Experience
+======
 
 - **Mathematics Teacher**, Thang Tien Thang Long Education JSC  
   *Sep 2023 – Mar 2025*  
   - Managed academic activities for high school students  
   - Provided academic support and designed lessons
 
-## Research Interests
+Research Interests
+======
 
 Optimization, variational analysis, numerical analysis, PDEs, and machine learning applications
 
-## Scientific Events
+Scientific Events
+======
 
 - **Summer School in PDE and Applications** – Saigon University, July 2024  
   [Syllabus](https://viasm.edu.vn/hdkh/pde2024)
@@ -73,7 +76,8 @@ Optimization, variational analysis, numerical analysis, PDEs, and machine learni
 - **Summer School on Optimization** – HCMUE, Aug–Sep 2021  
   [Syllabus](https://docs.google.com/document/d/1f_Gm-jSKHxVQqNSV8YEJoDAl2uF5fAZQPdGAw4p51Yw)
 
-## Honors and Awards
+Honors and Awards
+======
 
 - **Excellence Scholarship**, HCMUS Master’s program (2024–2025)
 - **Entrance Scholarship**, HCMUS (2024)
@@ -81,12 +85,14 @@ Optimization, variational analysis, numerical analysis, PDEs, and machine learni
 - **Third Prize**, Undergraduate Research Contest, HCMUE (2022)
 - **First Prize**, HCMC Calculator Math Contest (2018–2019)
 
-## Technical Skills
+Technical Skills
+======
 
 - **Programming**: MATLAB, Python, RStudio, Freefem++, LaTeX  
 - **Languages**: Vietnamese (Native), English (IELTS 7.0), French (Beginner)
 
-## Publications
+Publications
+======
 
 <ul>
 {% for post in site.publications reversed %}
@@ -94,7 +100,8 @@ Optimization, variational analysis, numerical analysis, PDEs, and machine learni
 {% endfor %}
 </ul>
 
-## Talks
+Talks
+======
 
 <ul>
 {% for post in site.talks reversed %}
@@ -102,7 +109,8 @@ Optimization, variational analysis, numerical analysis, PDEs, and machine learni
 {% endfor %}
 </ul>
 
-## Teaching
+Teaching
+======
 
 <ul>
 {% for post in site.teaching reversed %}
@@ -110,7 +118,8 @@ Optimization, variational analysis, numerical analysis, PDEs, and machine learni
 {% endfor %}
 </ul>
 
-## References
+References
+======
 
 - **Prof. Mounir Haddou** — INSA Rennes  
   mounir.haddou@insa-rennes.fr | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)  
