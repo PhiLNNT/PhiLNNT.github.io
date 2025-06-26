@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+{% include base_path %}
+
 ## Education
 
 - **French-Vietnamese Master of Applied Mathematics**, HCM University of Science & University of Tours  
