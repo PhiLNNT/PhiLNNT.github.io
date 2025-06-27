@@ -11,6 +11,10 @@ redirect_from:
 
 Education
 ======
+- **Doctor of Philosophy of Applied Mathematics**, University of Rennes  
+  *Oct 2025 – expected Oct 2028*  
+  - INSA and INRIA de Rennes
+
 - **French-Vietnamese Master of Applied Mathematics**, HCM University of Science & University of Tours  
   *Aug 2024 – expected Jul 2025*  
   - Studied advanced courses at HCMUS (Aug 2024 – Mar 2025)  
@@ -18,37 +22,38 @@ Education
 
 - **B.Sc. in Mathematics Teacher Education**, Ho Chi Minh City University of Education  
   *Aug 2019 – Aug 2023*  
-  - Graduation thesis on subgradient methods  
-  - Participated in academic competitions and extracurricular activities
+  - Completed Bachelor’ Degree Program.
+  - Graduation thesis: Subgradient Method and Applications.
+  - Participated in academic competitions and extracurricular activities.
 
 Research Experience
 ======
 - **Master 2 Intern**, IRMAR & INSA Rennes  
   *Apr – Jun 2025*  
-  *Complementarity Problems and Absolute Value Equations: Analysis and Comparison*  
+  *Complementarity Problems and Absolute Value Equations: Analysis and Comparison of Numerical Methods*  
   Advisors: Prof. Mounir Haddou and Prof. Dominique Monnet  
-  - Analyzed and compared numerical approaches for linear and nonlinear AVEs
+  - Analyzed and compared several numerical approaches and also considered generalizations of linear absolute value problems to nonlinear ones.
 
 - **Master 2 Projects**, HCMUS  
   *Aug 2024 – Mar 2025*  
-  - **Optimization Methods**: Compared proximal gradient descent, heavy ball method, ISTA, and FISTA (Grade: 19/20)  
-  - **Scientific Computing**: Implemented finite difference and finite element solvers for mechanical PDEs (Grade: 16/20)
+  - **Comparison of opmitization methods**:  Studied and compared a range of optimization algorithms including (proximal) gradient descent, (proximal) heavy ball method, ISTA, and FISTA. This is a final project of the course “Optimization and control” instructed by Prof. Mounir Haddou. (Grade: 19/20)
+  - **Modelisation and scientific computing**:  Implemented 1D finite difference and 2D finite element methods to solve PDEs applied to mechanical problems. This is a final project of the course instructed by Prof. Vu-Hieu Nguyen. (Grade: 16/20)
 
 - **Graduation Thesis**, HCMUE  
   *Jun 2022 – Apr 2023*  
   *Subgradient Method and Applications* (Grade: 10/10)  
-  - Applied Shor’s subgradient method to Lasso and convex clustering
+  -  The thesis studies the convergence analysis of different variants of Shor’s subgradient method. The algorithms are then applied to solve Lasso regression and Convex clustering problems with real data sets via Python.
 
 - **Scientific Project**, HCMUE  
   *Sep 2021 – May 2022*  
-  *Projection Methods for Generalized Monotone Variational Inequalities*  
-  - Third Prize in Undergraduate Scientific Research Contest  
+  *Projection Methods for Solving Generalized Monotone Variational Inequalities*  
+  - **Third prize** in Scientific Research Contest for Undergraduates in 2021- 2022 (Department round)  
   Advisor: Prof. Pham Duy Khanh
 
 - **Summer School Project**, HCMUE  
   *Aug – Sep 2021*  
   *Linear Support Vector Machines*  
-  - Implemented primal and dual SVMs via subgradient methods  
+  -  We trained and tested a linear SVM model based on two real data sets by using the subgradient method as well as writing and solving its dual problem.  
   Advisor: Prof. Tran Thai An Nghia
 
 Teaching Experience
@@ -66,11 +71,13 @@ Optimization, variational analysis, numerical analysis, PDEs, and machine learni
 
 Scientific Events
 ======
-
+- **Mini-course: Some new trends in inverse problems** – Vietnam Institute for Advanced Studies in Mathematics, July 2025  
+  [Website](https://viasm.edu.vn/hdkh/MC_NTIP)
+  
 - **Summer School in PDE and Applications** – Saigon University, July 2024  
-  [Syllabus](https://viasm.edu.vn/hdkh/pde2024)
+  [Website](https://viasm.edu.vn/hdkh/pde2024)
 
-- **Mini-course: Convex Analysis and Applications to Optimization** – VIASM, Feb 2023  
+- **Mini-course: Convex Analysis and Applications to Optimization** – Vietnam Institute for Advanced Studies in Mathematics, Feb 2023  
   [Website](https://viasm.edu.vn/hdkh/caao2023)
 
 - **Summer School on Optimization** – HCMUE, Aug–Sep 2021  
@@ -78,12 +85,12 @@ Scientific Events
 
 Honors and Awards
 ======
-
-- **Excellence Scholarship**, HCMUS Master’s program (2024–2025)
-- **Entrance Scholarship**, HCMUS (2024)
-- **Excellence Scholarship**, HCMUE (Top 3%, 2020–2021 and 2022–2023)
-- **Third Prize**, Undergraduate Research Contest, HCMUE (2022)
-- **First Prize**, HCMC Calculator Math Contest (2018–2019)
+- **VIASM Travel Grant** covered travel and stay expenses for selected participants (2025)
+- **HCMUS Excellence Scholarship** awarded to Master’s students with an average grade over 18/20 (2024-2025)
+- **HCMUS Entrance Scholarship** granted for outstanding performance in the Master’s program entrance interview (2024)
+- **HCMUE Excellence Scholarship** for the top 3% of students, in 2020- 2021 and 2022- 2023
+- **Third Prize** in Scientific Research Contest for Undergraduates in 2021- 2022 (Department round)
+- **First Prize**  in Contest for Excellent Students Solving Math Problems on Calculators in HCMC in 2018- 2019
 
 Technical Skills
 ======
@@ -122,8 +129,8 @@ References
 ======
 
 - **Prof. Mounir Haddou** — INSA Rennes  
-  mounir.haddou@insa-rennes.fr | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)  
+  [Email](mounir.haddou@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)  
 - **M.S. Tran Ba Dat** — Wayne State University  
-  tranbadat@wayne.edu | [Scholar](https://scholar.google.com/citations?user=9V5qSRcAAAAJ)  
+  [Email](tranbadat@wayne.edu) | [Scholar](https://scholar.google.com/citations?user=9V5qSRcAAAAJ)  
 - **Prof. Pham Duy Khanh** — HCMUE  
-  khanhpd@hcmue.edu.vn | [Scholar](https://scholar.google.com.vn/citations?user=lkp8e5UAAAAJ)
+  [Email](khanhpd@hcmue.edu.vn) | [Scholar](https://scholar.google.com.vn/citations?user=lkp8e5UAAAAJ)
