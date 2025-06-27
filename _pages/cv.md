@@ -11,8 +11,9 @@ redirect_from:
 
 Education
 ======
-- **Doctor of Philosophy of Applied Mathematics**, University of Rennes  
-  *Oct 2025 – expected Oct 2028*  
+- **Doctor of Philosophy in Applied Mathematics**, University of Rennes  
+  *Oct 2025 – expected Oct 2028*
+  - Dissertation: Hamilton-Jacobi equations on networks and applications to population dynamics and connected micro-environments
   - INSA and INRIA de Rennes
 
 - **French-Vietnamese Master of Applied Mathematics**, HCM University of Science & University of Tours  
@@ -22,12 +23,17 @@ Education
 
 - **B.Sc. in Mathematics Teacher Education**, Ho Chi Minh City University of Education  
   *Aug 2019 – Aug 2023*  
-  - Completed Bachelor’ Degree Program.
-  - Graduation thesis: Subgradient Method and Applications.
-  - Participated in academic competitions and extracurricular activities.
+  - Completed Bachelor’ Degree Program
+  - Graduation thesis: Subgradient Method and Applications
+  - Participated in academic competitions and extracurricular activities
 
 Research Experience
 ======
+- **PhD Student**, INSA & INRIA Rennes  
+  *Oct 2025 – Oct 2028*  
+  *Hamilton-Jacobi equations on networks and applications to population dynamics and connected micro-environments*  
+  Supervisors: Prof. Hélène Hivert, Prof. Othmane Jerhaoui and Prof. Olivier Ley
+
 - **Master 2 Intern**, IRMAR & INSA Rennes  
   *Apr – Jun 2025*  
   *Complementarity Problems and Absolute Value Equations: Analysis and Comparison of Numerical Methods*  
@@ -127,10 +133,15 @@ Teaching
 
 References
 ======
-
+- **Prof. Hélène Hivert** — INRIA, Géosciences Rennes 
+  [Email](helene.hivert@inria.fr) |
+  - **Prof. Othmane Jerhaoui** — University of Rennes, INSA Rennes, IRMAR
+  [Email](othmane.jerhaoui@insa-rennes.fr) |
+- **Prof. Olivier Ley** — University of Rennes, INSA Rennes, IRMAR 
+  [Email](olivier.ley@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?hl=vi&user=tgepQOkAAAAJ)  
 - **Prof. Mounir Haddou** — INSA Rennes  
   [Email](mounir.haddou@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)  
-- **M.S. Tran Ba Dat** — Wayne State University  
+- **Prof. Tran Ba Dat** — Rowan University  
   [Email](tranbadat@wayne.edu) | [Scholar](https://scholar.google.com/citations?user=9V5qSRcAAAAJ)  
 - **Prof. Pham Duy Khanh** — HCMUE  
   [Email](khanhpd@hcmue.edu.vn) | [Scholar](https://scholar.google.com.vn/citations?user=lkp8e5UAAAAJ)
