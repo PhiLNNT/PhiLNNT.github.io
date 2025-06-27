@@ -135,7 +135,7 @@ References
 ======
 - **Prof. Hélène Hivert** — INRIA, Géosciences Rennes 
   [Email](helene.hivert@inria.fr) |
-  - **Prof. Othmane Jerhaoui** — University of Rennes, INSA Rennes, IRMAR
+- **Prof. Othmane Jerhaoui** — University of Rennes, INSA Rennes, IRMAR
   [Email](othmane.jerhaoui@insa-rennes.fr) |
 - **Prof. Olivier Ley** — University of Rennes, INSA Rennes, IRMAR 
   [Email](olivier.ley@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?hl=vi&user=tgepQOkAAAAJ)  
