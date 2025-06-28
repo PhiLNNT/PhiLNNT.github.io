@@ -133,11 +133,11 @@ Teaching
 
 References
 ======
-- **Prof. Hélène Hivert** — INRIA, Géosciences Rennes
-  [Email](helene.hivert@inria.fr) | [Scholar]
-- **Prof. Othmane Jerhaoui** — University of Rennes, INSA Rennes, IRMAR
-  [Email](othmane.jerhaoui@insa-rennes.fr) | [Scholar]
-- **Prof. Olivier Ley** — University of Rennes, INSA Rennes, IRMAR
+- **Prof. Hélène Hivert** — INRIA, Géosciences Rennes  
+  [Email](mailto:helene.hivert@inria.fr) | [Scholar]  
+- **Prof. Othmane Jerhaoui** — University of Rennes, INSA Rennes, IRMAR  
+  [Email](othmane.jerhaoui@insa-rennes.fr) | [Scholar]  
+- **Prof. Olivier Ley** — University of Rennes, INSA Rennes, IRMAR  
   [Email](olivier.ley@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?hl=vi&user=tgepQOkAAAAJ)  
 - **Prof. Mounir Haddou** — INSA Rennes  
   [Email](mounir.haddou@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)  
