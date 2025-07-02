@@ -14,14 +14,14 @@ Education
 - **Doctor of Philosophy in Applied Mathematics**, University of Rennes  
   *Oct 2025 – expected Oct 2028*
   - Dissertation: Hamilton-Jacobi equations on networks and applications to population dynamics and connected micro-environments
-  - INSA and INRIA de Rennes
+  - IRMAR, INSA Rennes and Inria Rennes - Bretagne Atlantique
 
-- **French-Vietnamese Master of Applied Mathematics**, HCM University of Science & University of Tours  
+- **French-Vietnamese Master of Applied Mathematics**, HCM University of Science (HCMUS) & University of Tours  
   *Aug 2024 – expected Jul 2025*  
   - Studied advanced courses at HCMUS (Aug 2024 – Mar 2025)  
   - Internship for Master's thesis at IRMAR & INSA Rennes (Apr – Jun 2025)
 
-- **B.Sc. in Mathematics Teacher Education**, Ho Chi Minh City University of Education  
+- **B.Sc. in Mathematics Teacher Education**, Ho Chi Minh City University of Education (HCMUE) 
   *Aug 2019 – Aug 2023*  
   - Completed Bachelor’ Degree Program
   - Graduation thesis: Subgradient Method and Applications
@@ -29,15 +29,15 @@ Education
 
 Research Experience
 ======
-- **PhD Student**, INSA & INRIA Rennes  
+- **PhD Student**, IRMAR, INSA & INRIA Rennes  
   *Oct 2025 – Oct 2028*  
   *Hamilton-Jacobi equations on networks and applications to population dynamics and connected micro-environments*  
   Supervisors: Prof. Hélène Hivert, Prof. Othmane Jerhaoui and Prof. Olivier Ley
 
 - **Master 2 Intern**, IRMAR & INSA Rennes  
   *Apr – Jun 2025*  
-  *Complementarity Problems and Absolute Value Equations: Analysis and Comparison of Numerical Methods*  
-  Advisors: Prof. Mounir Haddou and Prof. Dominique Monnet  
+  - Master thesis: *Complementarity Problems and Absolute Value Equations: Analysis and Comparison of Numerical Methods* (Grade: 17/20)
+  - Advisors: Prof. Mounir Haddou and Prof. Dominique Monnet  
   - Analyzed and compared several numerical approaches and also considered generalizations of linear absolute value problems to nonlinear ones.
 
 - **Master 2 Projects**, HCMUS  
@@ -47,21 +47,22 @@ Research Experience
 
 - **Graduation Thesis**, HCMUE  
   *Jun 2022 – Apr 2023*  
-  *Subgradient Method and Applications* (Grade: 10/10)  
+  - Thesis: *Subgradient Method and Applications* (Grade: 10/10)
+  - Advisors: Prof. Tran Ba Dat and Prof. Pham Duy Khanh
   -  The thesis studies the convergence analysis of different variants of Shor’s subgradient method. The algorithms are then applied to solve Lasso regression and Convex clustering problems with real data sets via Python.
 
 - **Scientific Project**, HCMUE  
   *Sep 2021 – May 2022*  
-  *Projection Methods for Solving Generalized Monotone Variational Inequalities*  
+  - Project: *Projection Methods for Solving Generalized Monotone Variational Inequalities*
+  - Advisor: Prof. Pham Duy Khanh
   - **Third prize** in Scientific Research Contest for Undergraduates in 2021- 2022 (Department round)  
-  Advisor: Prof. Pham Duy Khanh
 
 - **Summer School Project**, HCMUE  
   *Aug – Sep 2021*  
-  *Linear Support Vector Machines*  
-  -  We trained and tested a linear SVM model based on two real data sets by using the subgradient method as well as writing and solving its dual problem.  
-  Advisor: Prof. Tran Thai An Nghia
-
+  - Project: *Linear Support Vector Machines*
+  - Advisor: Prof. Tran Thai An Nghia
+  - We trained and tested a linear SVM model based on two real data sets by using the subgradient method as well as writing and solving its dual problem.  
+  
 Teaching Experience
 ======
 
@@ -103,34 +104,34 @@ Technical Skills
 
 - **Programming**: MATLAB, Python, RStudio, Freefem++, LaTeX  
 - **Languages**: Vietnamese (Native), English (IELTS 7.0), French (Beginner)
-
+<!--
 Publications
 ======
-
+<!--
 <ul>
 {% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}
 </ul>
-
+<!--
 Talks
 ======
-
+<!--
 <ul>
 {% for post in site.talks reversed %}
   {% include archive-single-talk-cv.html %}
 {% endfor %}
 </ul>
-
+<!--
 Teaching
 ======
-
+<!--
 <ul>
 {% for post in site.teaching reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}
 </ul>
-
+-->
 References
 ======
 - **Prof. Hélène Hivert** — INRIA, Géosciences Rennes  
@@ -140,8 +141,10 @@ References
 - **Prof. Olivier Ley** — University of Rennes, INSA Rennes, IRMAR  
   [Email](olivier.ley@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?hl=vi&user=tgepQOkAAAAJ)  
 - **Prof. Mounir Haddou** — INSA Rennes  
-  [Email](mounir.haddou@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)  
+  [Email](mounir.haddou@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)
+<!--
 - **Prof. Tran Ba Dat** — Rowan University  
   [Email](tranbadat@wayne.edu) | [Scholar](https://scholar.google.com/citations?user=9V5qSRcAAAAJ)  
 - **Prof. Pham Duy Khanh** — HCMUE  
   [Email](khanhpd@hcmue.edu.vn) | [Scholar](https://scholar.google.com.vn/citations?user=lkp8e5UAAAAJ)
+-->
