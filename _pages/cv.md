@@ -144,9 +144,10 @@ References
   [Email](olivier.ley@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?hl=vi&user=tgepQOkAAAAJ)  
 - **Prof. Mounir Haddou** — INSA Rennes  
   [Email](mounir.haddou@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)
-<!--
+  
+<div style="display: none;">
 - **Prof. Tran Ba Dat** — Rowan University  
   [Email](tranbadat@wayne.edu) | [Scholar](https://scholar.google.com/citations?user=9V5qSRcAAAAJ)  
 - **Prof. Pham Duy Khanh** — HCMUE  
   [Email](khanhpd@hcmue.edu.vn) | [Scholar](https://scholar.google.com.vn/citations?user=lkp8e5UAAAAJ)
--->
+</div>
