@@ -136,8 +136,31 @@ Teaching
 
 References
 ======
+References
+======
+
 - **Prof. Hélène Hivert** — INRIA, Géosciences Rennes  
-  [Email](mailto:helene.hivert@inria.fr) | [ResearchGates](https://www.researchgate.net/profile/Helene-Hivert)  |   [Site](http://perso.ec-lyon.fr/helene.hivert/index_en.html)  
+  <a href="mailto:helene.hivert@inria.fr" title="Email"><i class="fas fa-envelope"></i></a>
+  <a href="https://www.researchgate.net/profile/Helene-Hivert" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+  <a href="http://perso.ec-lyon.fr/helene.hivert/index_en.html" title="Personal Website"><i class="fas fa-globe"></i></a>
+
+- **Prof. Othmane Jerhaoui** — University of Rennes, INSA Rennes, IRMAR  
+  <a href="mailto:othmane.jerhaoui@insa-rennes.fr" title="Email"><i class="fas fa-envelope"></i></a>
+  <a href="https://orcid.org/0000-0003-0583-1615" title="ORCID"><i class="ai ai-orcid"></i></a>
+  <a href="https://othmanejerhaoui.github.io/othmane-jerhaoui.github.io/" title="Personal Website"><i class="fas fa-globe"></i></a>
+
+- **Prof. Olivier Ley** — University of Rennes, INSA Rennes, IRMAR  
+  <a href="mailto:olivier.ley@insa-rennes.fr" title="Email"><i class="fas fa-envelope"></i></a>
+  <a href="https://scholar.google.com/citations?hl=vi&user=tgepQOkAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  <a href="https://ley.perso.math.cnrs.fr/" title="Personal Website"><i class="fas fa-globe"></i></a>
+
+- **Prof. Mounir Haddou** — INSA Rennes  
+  <a href="mailto:mounir.haddou@insa-rennes.fr" title="Email"><i class="fas fa-envelope"></i></a>
+  <a href="https://scholar.google.com/citations?user=2e-UNg8AAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  <a href="https://haddou.perso.math.cnrs.fr/" title="Personal Website"><i class="fas fa-globe"></i></a>
+
+- **Prof. Hélène Hivert** — INRIA, Géosciences Rennes  
+  [Email](mailto:helene.hivert@inria.fr) | [ResearchGate](https://www.researchgate.net/profile/Helene-Hivert)  |   [Site](http://perso.ec-lyon.fr/helene.hivert/index_en.html)  
 - **Prof. Othmane Jerhaoui** — University of Rennes, INSA Rennes, IRMAR  
   [Email](othmane.jerhaoui@insa-rennes.fr) | [ORCID](https://orcid.org/0000-0003-0583-1615)  | [Site](https://othmanejerhaoui.github.io/othmane-jerhaoui.github.io/)  
 - **Prof. Olivier Ley** — University of Rennes, INSA Rennes, IRMAR  
