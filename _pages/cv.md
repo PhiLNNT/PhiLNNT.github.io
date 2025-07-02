@@ -137,13 +137,13 @@ Teaching
 References
 ======
 - **Prof. Hélène Hivert** — INRIA, Géosciences Rennes  
-  [Email](mailto:helene.hivert@inria.fr) | [Scholar]  
+  [Email](mailto:helene.hivert@inria.fr) | [ResearchGates](https://www.researchgate.net/profile/Helene-Hivert)  |   [Site](http://perso.ec-lyon.fr/helene.hivert/index_en.html)  
 - **Prof. Othmane Jerhaoui** — University of Rennes, INSA Rennes, IRMAR  
-  [Email](othmane.jerhaoui@insa-rennes.fr) | [Scholar]  
+  [Email](othmane.jerhaoui@insa-rennes.fr) | [ORCID](https://orcid.org/0000-0003-0583-1615)  | [Site](https://othmanejerhaoui.github.io/othmane-jerhaoui.github.io/)  
 - **Prof. Olivier Ley** — University of Rennes, INSA Rennes, IRMAR  
-  [Email](olivier.ley@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?hl=vi&user=tgepQOkAAAAJ)  
+  [Email](olivier.ley@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?hl=vi&user=tgepQOkAAAAJ)  | [Site](https://ley.perso.math.cnrs.fr/)  
 - **Prof. Mounir Haddou** — INSA Rennes  
-  [Email](mounir.haddou@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)
+  [Email](mounir.haddou@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)  | [Site](https://haddou.perso.math.cnrs.fr/)  
   
 <div style="display: none;">
 - **Prof. Tran Ba Dat** — Rowan University  
