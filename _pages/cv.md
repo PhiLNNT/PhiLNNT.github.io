@@ -104,7 +104,8 @@ Technical Skills
 
 - **Programming**: MATLAB, Python, RStudio, Freefem++, LaTeX  
 - **Languages**: Vietnamese (Native), English (IELTS 7.0), French (Beginner)
-<!--
+
+<div style="display: none;">
 Publications
 ======
 
@@ -131,7 +132,7 @@ Teaching
   {% include archive-single-cv.html %}
 {% endfor %}
 </ul>
--->
+</div>
 
 References
 ======
