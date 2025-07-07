@@ -136,8 +136,6 @@ Teaching
 
 References
 ======
-References
-======
 
 - **Prof. Hélène Hivert** — INRIA, Géosciences Rennes  
   <a href="mailto:helene.hivert@inria.fr" title="Email"><i class="fas fa-envelope"></i></a>
@@ -159,6 +157,7 @@ References
   <a href="https://scholar.google.com/citations?user=2e-UNg8AAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
   <a href="https://haddou.perso.math.cnrs.fr/" title="Personal Website"><i class="fas fa-globe"></i></a>
 
+<div style="display: none;">
 - **Prof. Hélène Hivert** — INRIA, Géosciences Rennes  
   [Email](mailto:helene.hivert@inria.fr) | [ResearchGate](https://www.researchgate.net/profile/Helene-Hivert)  |   [Site](http://perso.ec-lyon.fr/helene.hivert/index_en.html)  
 - **Prof. Othmane Jerhaoui** — University of Rennes, INSA Rennes, IRMAR  
@@ -168,7 +167,6 @@ References
 - **Prof. Mounir Haddou** — INSA Rennes  
   [Email](mounir.haddou@insa-rennes.fr) | [Scholar](https://scholar.google.com/citations?user=2e-UNg8AAAAJ)  | [Site](https://haddou.perso.math.cnrs.fr/)  
   
-<div style="display: none;">
 - **Prof. Tran Ba Dat** — Rowan University  
   [Email](tranbadat@wayne.edu) | [Scholar](https://scholar.google.com/citations?user=9V5qSRcAAAAJ)  
 - **Prof. Pham Duy Khanh** — HCMUE  
