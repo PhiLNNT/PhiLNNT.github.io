@@ -11,7 +11,7 @@ Hello! I’m **Hoang Phi Tran**, a recent graduate of the French-Vietnamese Mast
 
 I have just completed my Master’s thesis at **IRMAR & INSA Rennes**, where I focused on **complementarity problems and absolute value equations**, analyzing and comparing numerical methods, and exploring generalizations to nonlinear problems.
 
-Previously, I worked as a **Mathematics teacher** at Thang Tien Thang Long Education JSC, where I supported high school students in Pre-Calculus and Geometry and developed lesson plans and academic resources.
+Previously, I worked as a **Mathematics teacher** at Thang Tien Thang Long Education Jsc, where I supported high school students in Pre-Calculus and Geometry and developed lesson plans and academic resources.
 
 My academic interests include **optimization**, **variational analysis**, **numerical methods**, **PDEs**, and **machine learning applications**. I enjoy bridging rigorous mathematical theory with computational tools such as MATLAB, Python, RStudio, and FreeFEM++.
 
