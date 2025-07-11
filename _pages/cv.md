@@ -78,13 +78,16 @@ Optimization, variational analysis, numerical analysis, PDEs, and machine learni
 
 Scientific Events
 ======
-- **Mini-course: Some new trends in inverse problems** – Vietnam Institute for Advanced Studies in Mathematics, July 2025  
+- **Mini-course: Modern Time-Stepping Techniques for PDEs: Splitting and Low Regularity Approaches** – VIASM, July 2025  
+  [Website](https://viasm.edu.vn/hdkh/Modern-Time-Stepping-Techniques-for-PDEs)
+  
+- **Mini-course: Some new trends in inverse problems** – VIASM, July 2025  
   [Website](https://viasm.edu.vn/hdkh/MC_NTIP)
   
 - **Summer School in PDE and Applications** – Saigon University, July 2024  
   [Website](https://viasm.edu.vn/hdkh/pde2024)
 
-- **Mini-course: Convex Analysis and Applications to Optimization** – Vietnam Institute for Advanced Studies in Mathematics, Feb 2023  
+- **Mini-course: Convex Analysis and Applications to Optimization** – VIASM, Feb 2023  
   [Website](https://viasm.edu.vn/hdkh/caao2023)
 
 - **Summer School on Optimization** – HCMUE, Aug–Sep 2021  
