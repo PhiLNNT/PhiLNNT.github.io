@@ -100,7 +100,7 @@ Honors and Awards
 - **HCMUS Entrance Scholarship** granted for outstanding performance in the Master’s program entrance interview (2024)
 - **HCMUE Excellence Scholarship** for the top 3% of students, in 2020- 2021 and 2022- 2023
 - **Third Prize** in Scientific Research Contest for Undergraduates in 2021- 2022 (Department round)
-- **First Prize**  in Contest for Excellent Students Solving Math Problems on Calculators in HCMC in 2018- 2019
+- **First Prize** in City-Level Mathematics Competition for Excellent 12th Grade Students, Ho Chi Minh City (2018)
 
 Technical Skills
 ======
