@@ -29,17 +29,17 @@ author:
   location         : "Rennes, France"
   employer         : "INRIA & INSA Rennes"
   uri              : # URL
-  email            : "tranhoangphi2001@gmail.com" 
+  email            : "hoang-phi.tran@insa-rennes.fr" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=vi&user=TGfEyyQAAAAJ"
   impactstory      : # URL
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "http://orcid.org/0009-0001-3421-9735"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Hoang-Phi-Tran-2"
   scopus           : # URL
 
   # Repositories and software development
