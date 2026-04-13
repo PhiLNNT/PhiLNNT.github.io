@@ -1,7 +1,7 @@
 ---
 title: "Solving Nonlinear Absolute Value Equations"
 collection: publications
-category: preprints
+category: preprint
 permalink: /publication/2026-04-13-paper-title-number-1
 excerpt: "This paper studies nonlinear absolute value equations."
 date: 2026-04-13
