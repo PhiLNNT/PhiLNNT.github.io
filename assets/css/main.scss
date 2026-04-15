@@ -3,7 +3,6 @@
 
 /*
  * This file controls what is imported from /_sass
- * ...
  */
 @import "vendor/breakpoint/breakpoint",
         "themes",
@@ -239,8 +238,8 @@
 @media (max-width: 900px) {
   .visitor-globe__header,
   .visitor-globe__content {
-    grid-template-columns: 1fr;
     display: grid;
+    grid-template-columns: 1fr;
   }
 
   .visitor-globe__stats {
