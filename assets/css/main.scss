@@ -42,8 +42,13 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* Fix author sidebar on desktop */
+/* Better desktop author sidebar */
 @media (min-width: 64em) {
+  .sidebar {
+    width: 18rem !important;
+    opacity: 1;
+  }
+
   .sidebar.sticky {
     max-height: none !important;
     overflow-y: visible !important;
@@ -55,5 +60,10 @@
     white-space: normal !important;
     word-break: break-word;
     overflow-wrap: anywhere;
+  }
+
+  .page {
+    width: calc(100% - 19rem) !important;
+    padding-right: 19rem !important;
   }
 }
