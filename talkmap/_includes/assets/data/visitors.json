@@ -1,0 +1,18 @@
+{
+  "period": "Mar 15 – Apr 15",
+  "pageviews": 914,
+  "visitors": 486,
+  "countries": 27,
+  "locations": [
+    { "city": "Rennes", "country": "France", "lat": 48.1173, "lng": -1.6778, "views": 148 },
+    { "city": "Paris", "country": "France", "lat": 48.8566, "lng": 2.3522, "views": 73 },
+    { "city": "Ho Chi Minh City", "country": "Vietnam", "lat": 10.8231, "lng": 106.6297, "views": 129 },
+    { "city": "Hanoi", "country": "Vietnam", "lat": 21.0278, "lng": 105.8342, "views": 81 },
+    { "city": "Singapore", "country": "Singapore", "lat": 1.3521, "lng": 103.8198, "views": 44 },
+    { "city": "Tokyo", "country": "Japan", "lat": 35.6762, "lng": 139.6503, "views": 38 },
+    { "city": "Seoul", "country": "South Korea", "lat": 37.5665, "lng": 126.9780, "views": 31 },
+    { "city": "London", "country": "United Kingdom", "lat": 51.5072, "lng": -0.1276, "views": 27 },
+    { "city": "New York", "country": "United States", "lat": 40.7128, "lng": -74.0060, "views": 34 },
+    { "city": "Sydney", "country": "Australia", "lat": -33.8688, "lng": 151.2093, "views": 18 }
+  ]
+}
