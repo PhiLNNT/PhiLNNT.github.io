@@ -64,3 +64,218 @@
     gap: 0.45rem;
   }
 }
+
+/* ===== Visitor globe card ===== */
+.visitor-globe-card {
+  margin: 2.5rem 0 1.5rem;
+  padding: 1.25rem 1.25rem 1rem;
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at top right, rgba(96, 209, 255, 0.18), transparent 30%),
+    radial-gradient(circle at bottom left, rgba(62, 125, 255, 0.18), transparent 28%),
+    linear-gradient(145deg, #08111f 0%, #0d1728 42%, #111e34 100%);
+  color: #eef6ff;
+  box-shadow: 0 18px 50px rgba(4, 12, 26, 0.28);
+  border: 1px solid rgba(142, 202, 255, 0.12);
+}
+
+.visitor-globe__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.visitor-globe__eyebrow {
+  margin: 0 0 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  color: #8dcfff;
+}
+
+.visitor-globe__title {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.visitor-globe__period {
+  margin: 0.35rem 0 0;
+  color: #c9ddf8;
+  font-size: 0.95rem;
+}
+
+.visitor-globe__stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(88px, 1fr));
+  gap: 0.75rem;
+  min-width: min(100%, 330px);
+}
+
+.visitor-stat {
+  padding: 0.85rem 0.9rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(150, 205, 255, 0.12);
+  backdrop-filter: blur(6px);
+  text-align: center;
+}
+
+.visitor-stat span {
+  display: block;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.visitor-stat small {
+  display: block;
+  margin-top: 0.2rem;
+  color: #c8dcf9;
+  font-size: 0.8rem;
+}
+
+.visitor-globe__content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(260px, 0.95fr);
+  gap: 1.1rem;
+  align-items: center;
+}
+
+.visitor-globe__globe-wrap {
+  min-width: 0;
+  border-radius: 22px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at center, rgba(137, 219, 255, 0.06), transparent 48%),
+    linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  min-height: 360px;
+}
+
+#visitor-globe {
+  width: 100%;
+  min-height: 360px;
+}
+
+.visitor-globe__panel {
+  padding: 1rem 1rem 0.9rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(150, 205, 255, 0.1);
+}
+
+.visitor-globe__panel h3 {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  color: #ffffff;
+}
+
+.visitor-globe__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.visitor-globe__list li {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid rgba(173, 210, 255, 0.12);
+}
+
+.visitor-globe__list li:last-child {
+  border-bottom: 0;
+}
+
+.visitor-globe__list .rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: rgba(100, 207, 255, 0.14);
+  color: #a9e9ff;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.visitor-globe__list .meta strong {
+  display: block;
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.visitor-globe__list .meta small {
+  color: #c6daf5;
+}
+
+.visitor-globe__legend {
+  margin-top: 1rem;
+  color: #c8dcf9;
+  font-size: 0.85rem;
+}
+
+.dot {
+  display: inline-block;
+  border-radius: 999px;
+  margin: 0 0.35rem 0 0.7rem;
+  background: #6ce8ff;
+  box-shadow: 0 0 12px rgba(108, 232, 255, 0.9);
+}
+
+.dot:first-child {
+  margin-left: 0;
+}
+
+.dot--small {
+  width: 8px;
+  height: 8px;
+}
+
+.dot--large {
+  width: 14px;
+  height: 14px;
+}
+
+.visitor-globe__note {
+  margin: 0.9rem 0 0;
+  color: #a9bfdc;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 900px) {
+  .visitor-globe__header,
+  .visitor-globe__content {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .visitor-globe__stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .visitor-globe-card {
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
+  .visitor-globe__title {
+    font-size: 1.2rem;
+  }
+
+  .visitor-globe__stats {
+    grid-template-columns: 1fr;
+  }
+
+  #visitor-globe,
+  .visitor-globe__globe-wrap {
+    min-height: 300px;
+  }
+}
