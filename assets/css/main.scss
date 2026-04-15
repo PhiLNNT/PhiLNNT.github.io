@@ -42,28 +42,25 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* Better desktop author sidebar */
 @media (min-width: 64em) {
-  .sidebar {
-    width: 18rem !important;
-    opacity: 1;
-  }
-
   .sidebar.sticky {
-    max-height: none !important;
-    overflow-y: visible !important;
+    overflow-y: auto !important;
+    max-height: calc(100vh - 5rem) !important;
+    padding-right: 0.4rem;
   }
 
+  .author__content,
   .author__urls li,
   .author__urls a,
-  .author__content {
+  .author__urls .label {
     white-space: normal !important;
     word-break: break-word;
     overflow-wrap: anywhere;
   }
 
-  .page {
-    width: calc(100% - 19rem) !important;
-    padding-right: 19rem !important;
+  .author__urls a {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.45rem;
   }
 }
