@@ -311,3 +311,113 @@
   overflow-x: auto;
   padding: 0.5rem 0 0.2rem;
 }
+
+/* ===== Visitor map card: light/dark adaptive ===== */
+.visitor-map-card {
+  margin: 2.2rem 0 1.4rem;
+  padding: 1.25rem 1.25rem 1rem;
+  border-radius: 24px;
+  text-align: center;
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.visitor-map-card__header {
+  margin-bottom: 1rem;
+}
+
+.visitor-map-card__eyebrow {
+  margin: 0 0 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.visitor-map-card__title {
+  margin: 0;
+  font-size: 1.45rem;
+}
+
+.visitor-map-card__text {
+  margin: 0.45rem 0 0;
+  font-size: 0.95rem;
+}
+
+.visitor-map-card__embed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  padding: 0.5rem 0 0.2rem;
+}
+
+.visitor-map-card__globe {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  transition: filter 0.25s ease;
+}
+
+/* Light mode */
+.visitor-map-card.is-light {
+  background:
+    radial-gradient(circle at top right, rgba(80, 180, 255, 0.12), transparent 26%),
+    linear-gradient(145deg, #f7fbff 0%, #eef5fb 45%, #e8f0f8 100%);
+  color: #15243a;
+  border: 1px solid rgba(70, 130, 190, 0.14);
+  box-shadow: 0 12px 32px rgba(40, 70, 110, 0.10);
+}
+
+.visitor-map-card.is-light .visitor-map-card__eyebrow {
+  color: #2f78b7;
+}
+
+.visitor-map-card.is-light .visitor-map-card__title {
+  color: #0f2138;
+}
+
+.visitor-map-card.is-light .visitor-map-card__text {
+  color: #47627d;
+}
+
+.visitor-map-card.is-light .visitor-map-card__globe {
+  filter: none;
+}
+
+/* Dark mode */
+.visitor-map-card.is-dark {
+  background:
+    radial-gradient(circle at top right, rgba(96, 209, 255, 0.16), transparent 28%),
+    linear-gradient(145deg, #08111f 0%, #0d1728 42%, #111e34 100%);
+  color: #eef6ff;
+  border: 1px solid rgba(142, 202, 255, 0.12);
+  box-shadow: 0 18px 50px rgba(4, 12, 26, 0.22);
+}
+
+.visitor-map-card.is-dark .visitor-map-card__eyebrow {
+  color: #8dcfff;
+}
+
+.visitor-map-card.is-dark .visitor-map-card__title {
+  color: #ffffff;
+}
+
+.visitor-map-card.is-dark .visitor-map-card__text {
+  color: #c9ddf8;
+}
+
+/* This makes the globe feel like a dark-mode version */
+.visitor-map-card.is-dark .visitor-map-card__globe {
+  filter: invert(1) hue-rotate(180deg) saturate(1.08) contrast(1.03) brightness(0.93);
+}
+
+@media (max-width: 640px) {
+  .visitor-map-card {
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
+  .visitor-map-card__title {
+    font-size: 1.2rem;
+  }
+}
