@@ -26,7 +26,7 @@
   </div>
 
   <div class="visitor-map-card__embed">
-    <div class="visitor-map-card__globe" id="visitor-map-globe">
+    <div class="visitor-map-card__globe">
       <script
         type="text/javascript"
         id="clstr_globe"
@@ -62,17 +62,13 @@
       classes.includes("dark") ||
       classes.includes("theme-dark") ||
       classes.includes("night")
-    ) {
-      return true;
-    }
+    ) return true;
 
     if (
       attrs.includes("light") ||
       classes.includes("light") ||
       classes.includes("theme-light")
-    ) {
-      return false;
-    }
+    ) return false;
 
     return window.matchMedia &&
       window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -101,11 +97,8 @@
 
   if (window.matchMedia) {
     const mq = window.matchMedia("(prefers-color-scheme: dark)");
-    if (mq.addEventListener) {
-      mq.addEventListener("change", applyMode);
-    } else if (mq.addListener) {
-      mq.addListener(applyMode);
-    }
+    if (mq.addEventListener) mq.addEventListener("change", applyMode);
+    else if (mq.addListener) mq.addListener(applyMode);
   }
 })();
 </script>
