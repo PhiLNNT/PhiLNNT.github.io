@@ -35,7 +35,25 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
+    <!-- {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %} -->
+    {% if post.date %}
+      {% if post.end_date %}
+        {% assign start_month = post.date | date: '%B' %}
+        {% assign end_month = post.end_date | date: '%B' %}
+        {% assign start_year = post.date | date: '%Y' %}
+        {% assign end_year = post.end_date | date: '%Y' %}
+    
+        {% if start_month == end_month and start_year == end_year %}
+          {{ post.date | date: '%B %d' }}-{{ post.end_date | date: '%d, %Y' }}
+        {% elsif start_year == end_year %}
+          {{ post.date | date: '%B %d' }} - {{ post.end_date | date: '%B %d, %Y' }}
+        {% else %}
+          {{ post.date | date: '%B %d, %Y' }} - {{ post.end_date | date: '%B %d, %Y' }}
+        {% endif %}
+      {% else %}
+        {{ post.date | date: '%B %d, %Y' }}
+      {% endif %}
+    {% endif %}
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
