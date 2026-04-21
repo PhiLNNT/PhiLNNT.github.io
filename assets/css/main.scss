@@ -198,3 +198,154 @@
   transform-origin: top center;
   margin-bottom: -40px;
 }
+
+/* ===== Text highlight utilities ===== */
+
+/* colors */
+.highlight-blue { color: #1f6feb; }
+.highlight-sky { color: #0ea5e9; }
+.highlight-cyan { color: #06b6d4; }
+.highlight-teal { color: #0f766e; }
+.highlight-green { color: #15803d; }
+.highlight-lime { color: #65a30d; }
+.highlight-yellow { color: #ca8a04; }
+.highlight-orange { color: #ea580c; }
+.highlight-red { color: #dc2626; }
+.highlight-rose { color: #e11d48; }
+.highlight-pink { color: #db2777; }
+.highlight-purple { color: #9333ea; }
+.highlight-violet { color: #7c3aed; }
+.highlight-indigo { color: #4f46e5; }
+.highlight-brown { color: #92400e; }
+.highlight-gray { color: #475569; }
+.highlight-dark { color: #0f172a; }
+.highlight-white { color: #ffffff; }
+
+/* font weight / style */
+.highlight-bold { font-weight: 700; }
+.highlight-bolder { font-weight: 800; }
+.highlight-light { font-weight: 300; }
+.highlight-italic { font-style: italic; }
+.highlight-oblique { font-style: oblique; }
+.highlight-smallcaps { font-variant: small-caps; }
+
+/* decoration */
+.highlight-underline { text-decoration: underline; }
+.highlight-double-underline {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+.highlight-dotted {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+.highlight-wavy {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+.highlight-strike { text-decoration: line-through; }
+.highlight-overline { text-decoration: overline; }
+
+/* spacing / transform */
+.highlight-upper { text-transform: uppercase; }
+.highlight-lower { text-transform: lowercase; }
+.highlight-capitalize { text-transform: capitalize; }
+.highlight-spaced { letter-spacing: 0.08em; }
+.highlight-wide { letter-spacing: 0.16em; }
+
+/* backgrounds */
+.highlight-bg-yellow {
+  background: #fef08a;
+  padding: 0.08em 0.28em;
+  border-radius: 0.25em;
+}
+.highlight-bg-blue {
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 0.08em 0.28em;
+  border-radius: 0.25em;
+}
+.highlight-bg-green {
+  background: #dcfce7;
+  color: #166534;
+  padding: 0.08em 0.28em;
+  border-radius: 0.25em;
+}
+.highlight-bg-red {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 0.08em 0.28em;
+  border-radius: 0.25em;
+}
+.highlight-bg-dark {
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 0.08em 0.28em;
+  border-radius: 0.25em;
+}
+
+/* pills / badges */
+.highlight-pill-blue {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 0.12em 0.6em;
+  border-radius: 999px;
+  font-weight: 700;
+}
+.highlight-pill-green {
+  display: inline-block;
+  background: #dcfce7;
+  color: #166534;
+  padding: 0.12em 0.6em;
+  border-radius: 999px;
+  font-weight: 700;
+}
+.highlight-pill-purple {
+  display: inline-block;
+  background: #ede9fe;
+  color: #6d28d9;
+  padding: 0.12em 0.6em;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+/* borders / boxes */
+.highlight-box {
+  display: inline-block;
+  padding: 0.08em 0.35em;
+  border: 1px solid currentColor;
+  border-radius: 0.3em;
+}
+.highlight-leftbar-blue {
+  display: inline-block;
+  padding-left: 0.45em;
+  border-left: 4px solid #2563eb;
+}
+.highlight-leftbar-red {
+  display: inline-block;
+  padding-left: 0.45em;
+  border-left: 4px solid #dc2626;
+}
+
+/* visual effects */
+.highlight-shadow { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18); }
+.highlight-glow-blue { text-shadow: 0 0 8px rgba(37, 99, 235, 0.35); }
+.highlight-glow-pink { text-shadow: 0 0 8px rgba(219, 39, 119, 0.35); }
+.highlight-fade { opacity: 0.78; }
+
+/* gradient text */
+.highlight-gradient-blue-purple {
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.highlight-gradient-rose-orange {
+  background: linear-gradient(90deg, #e11d48, #f97316);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
