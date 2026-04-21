@@ -158,3 +158,37 @@
     font-size: 1.2rem;
   }
 }
+
+/* ===== Visitor map size + footer cleanup overrides ===== */
+.visitor-map-card__embed {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  padding: 0.5rem 0 0.2rem;
+}
+
+.visitor-map-card__globe {
+  width: 100%;
+  max-width: 520px; /* decrease this number more if you want it smaller */
+  margin: 0 auto;
+  transition: filter 0.25s ease;
+}
+
+.visitor-map-card__globe > *,
+.visitor-map-card__globe iframe,
+.visitor-map-card__globe canvas,
+.visitor-map-card__globe img,
+.visitor-map-card__globe div {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .visitor-map-card__globe {
+    max-width: 100%;
+  }
+}
