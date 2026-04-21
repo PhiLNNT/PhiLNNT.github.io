@@ -30,34 +30,31 @@ layout: default
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        <!-- {% if page.modified %}
-          Date: {{ page.modified | date: "%B %d, %Y" }}
-        {% elsif page.date %}
-          {% if page.end_date %}
-            {% assign start_month = page.date | date: '%B' %}
-            {% assign end_month = page.end_date | date: '%B' %}
-            {% assign start_year = page.date | date: '%Y' %}
-            {% assign end_year = page.end_date | date: '%Y' %}
-        
-            Date:
-            {% if start_month == end_month and start_year == end_year %}
-              {{ page.date | date: '%B %d' }}-{{ page.end_date | date: '%d, %Y' }}
-            {% elsif start_year == end_year %}
-              {{ page.date | date: '%B %d' }} - {{ page.end_date | date: '%B %d, %Y' }}
-            {% else %}
-              {{ page.date | date: '%B %d, %Y' }} - {{ page.end_date | date: '%B %d, %Y' }}
-            {% endif %}
-          {% else %}
-            Date: {{ page.date | date: "%B %d, %Y" }}
-          {% endif %}
-        {% endif %}
-        {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %} -->
 
+          {% if page.modified %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+          {% elsif page.date %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong>
+              {% if page.end_date %}
+                {% assign start_month = page.date | date: '%B' %}
+                {% assign end_month = page.end_date | date: '%B' %}
+                {% assign start_year = page.date | date: '%Y' %}
+                {% assign end_year = page.end_date | date: '%Y' %}
+
+                {% if start_month == end_month and start_year == end_year %}
+                  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d' }}</time>-<time datetime="{{ page.end_date | date_to_xmlschema }}">{{ page.end_date | date: '%d, %Y' }}</time>
+                {% elsif start_year == end_year %}
+                  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d' }}</time> - <time datetime="{{ page.end_date | date_to_xmlschema }}">{{ page.end_date | date: '%B %d, %Y' }}</time>
+                {% else %}
+                  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time> - <time datetime="{{ page.end_date | date_to_xmlschema }}">{{ page.end_date | date: '%B %d, %Y' }}</time>
+                {% endif %}
+              {% else %}
+                <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+              {% endif %}
+            </p>
+          {% endif %}
+
+          {% if page.talk_type %}<p>{{ page.talk_type }} at {{ page.venue }}, {{ page.location }}</p>{% endif %}
         </header>
       {% endunless %}
 
