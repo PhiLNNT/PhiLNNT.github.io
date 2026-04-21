@@ -54,7 +54,12 @@ layout: default
             </p>
           {% endif %}
 
-          {% if page.talk_type %}<p>{{ page.talk_type }} at {{ page.venue }}, {{ page.location }}</p>{% endif %}
+          {% assign event_kind = page.talk_type | default: page.type %}
+          {% if event_kind or page.venue or page.location %}
+            <p>
+              {{ event_kind }}{% if page.venue %} at {{ page.venue }}{% endif %}{% if page.location %}, {{ page.location }}{% endif %}
+            </p>
+          {% endif %}
         </header>
       {% endunless %}
 
