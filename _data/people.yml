@@ -1,27 +1,37 @@
 advisors:
-  - name: "Olivier LEY"
-    role: "PhD advisor"
-    affiliation: "IRMAR, INSA Rennes"
-    website: "https://ley.perso.math.cnrs.fr/"
-    visible: true
-
   - name: "Hélène HIVERT"
     role: "PhD advisor"
     affiliation: "Université de Rennes"
     website: "https://geosciences.univ-rennes.fr/interlocuteurs/helene-hivert"
     visible: true
-
+    
   - name: "Othmane JERHAOUI"
     role: "PhD advisor"
     affiliation: "IRMAR, INSA Rennes"
     website: "https://irmar.univ-rennes.fr/interlocuteurs/othmane-jerhaoui"
     visible: true
 
+  - name: "Olivier LEY"
+    role: "PhD advisor"
+    affiliation: "IRMAR, INSA Rennes"
+    website: "https://ley.perso.math.cnrs.fr/"
+    visible: true
+
 collaborators:
+  - name: "Aris Daniilidis"
+    role: "Research collaborator"
+    affiliation: "TU Wien, Austria"
+    website: "https://www.arisdaniilidis.at/"
+    visible: true
   - name: "Mounir Haddou"
     role: "Research collaborator"
-    affiliation: "INSA Rennes"
+    affiliation: "INSA Rennes, France"
     website: "https://haddou.perso.math.cnrs.fr/"
+    visible: true
+  - name: "Trí Minh Lê"
+    role: "Research collaborator"
+    affiliation: "TU Wien, Austria"
+    website: "https://sites.google.com/view/tri-minh-le/"
     visible: true
 
 # students:
