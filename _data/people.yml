@@ -1,7 +1,7 @@
 advisors:
   - name: "Olivier LEY"
     role: "PhD advisor"
-    affiliation: "IRMAR, Université de Rennes"
+    affiliation: "IRMAR, INSA Rennes"
     website: "https://ley.perso.math.cnrs.fr/"
     visible: true
 
@@ -13,20 +13,20 @@ advisors:
 
   - name: "Othmane JERHAOUI"
     role: "PhD advisor"
-    affiliation: "IRMAR, Université de Rennes"
+    affiliation: "IRMAR, INSA Rennes"
     website: "https://irmar.univ-rennes.fr/interlocuteurs/othmane-jerhaoui"
     visible: true
 
 collaborators:
-  - name: "Example Collaborator"
+  - name: "Mounir Haddou"
     role: "Research collaborator"
-    affiliation: "Institution"
-    website: ""
+    affiliation: "INSA Rennes"
+    website: "https://haddou.perso.math.cnrs.fr/"
     visible: true
 
-students:
-  - name: "Future Student Name"
-    role: "Student"
-    affiliation: "Institution"
-    website: ""
-    visible: false
+# students:
+#   - name: "Future Student Name"
+#     role: "Student"
+#     affiliation: "Institution"
+#     website: ""
+#     visible: false
