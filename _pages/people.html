@@ -1,0 +1,69 @@
+---
+layout: archive
+title: "People"
+permalink: /people/
+author_profile: true
+---
+
+<h2>Advisors</h2>
+<div class="people-grid">
+  {% for person in site.data.people.advisors %}
+    {% if person.visible %}
+      <div class="people-card">
+        <h3 class="people-card__name">
+          {% if person.website and person.website != "" %}
+            <a href="{{ person.website }}" target="_blank" rel="noopener">{{ person.name }}</a>
+          {% else %}
+            {{ person.name }}
+          {% endif %}
+        </h3>
+        {% if person.role %}<p class="people-card__role">{{ person.role }}</p>{% endif %}
+        {% if person.affiliation %}<p class="people-card__affiliation">{{ person.affiliation }}</p>{% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2>Collaborators</h2>
+<div class="people-grid">
+  {% for person in site.data.people.collaborators %}
+    {% if person.visible %}
+      <div class="people-card">
+        <h3 class="people-card__name">
+          {% if person.website and person.website != "" %}
+            <a href="{{ person.website }}" target="_blank" rel="noopener">{{ person.name }}</a>
+          {% else %}
+            {{ person.name }}
+          {% endif %}
+        </h3>
+        {% if person.role %}<p class="people-card__role">{{ person.role }}</p>{% endif %}
+        {% if person.affiliation %}<p class="people-card__affiliation">{{ person.affiliation }}</p>{% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2>Students</h2>
+<div class="people-grid">
+  {% assign shown_students = false %}
+  {% for person in site.data.people.students %}
+    {% if person.visible %}
+      {% assign shown_students = true %}
+      <div class="people-card">
+        <h3 class="people-card__name">
+          {% if person.website and person.website != "" %}
+            <a href="{{ person.website }}" target="_blank" rel="noopener">{{ person.name }}</a>
+          {% else %}
+            {{ person.name }}
+          {% endif %}
+        </h3>
+        {% if person.role %}<p class="people-card__role">{{ person.role }}</p>{% endif %}
+        {% if person.affiliation %}<p class="people-card__affiliation">{{ person.affiliation }}</p>{% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% unless shown_students %}
+<p>No students listed yet.</p>
+{% endunless %}
