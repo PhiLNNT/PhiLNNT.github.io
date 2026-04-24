@@ -1,0 +1,32 @@
+advisors:
+  - name: "Olivier LEY"
+    role: "PhD advisor"
+    affiliation: "IRMAR, Université de Rennes"
+    website: "https://ley.perso.math.cnrs.fr/"
+    visible: true
+
+  - name: "Hélène HIVERT"
+    role: "PhD advisor"
+    affiliation: "Université de Rennes"
+    website: "https://geosciences.univ-rennes.fr/interlocuteurs/helene-hivert"
+    visible: true
+
+  - name: "Othmane JERHAOUI"
+    role: "PhD advisor"
+    affiliation: "IRMAR, Université de Rennes"
+    website: "https://irmar.univ-rennes.fr/interlocuteurs/othmane-jerhaoui"
+    visible: true
+
+collaborators:
+  - name: "Example Collaborator"
+    role: "Research collaborator"
+    affiliation: "Institution"
+    website: ""
+    visible: true
+
+students:
+  - name: "Future Student Name"
+    role: "Student"
+    affiliation: "Institution"
+    website: ""
+    visible: false
