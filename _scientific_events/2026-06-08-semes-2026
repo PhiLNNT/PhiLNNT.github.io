@@ -1,5 +1,5 @@
 ---
-title: "Semaines d’Études Maths, Entreprises et Société (<a href='https://semes-lyon2026.sciencesconf.org/?lang=fr' target='_blank' rel='noopener'>SEMES 2026</a>)"
+title: "Semaines d’Études Maths, Entreprises et Société (SEMES 2026)"
 collection: scientific_events
 type: "Workshop"
 talk_type: "Workshop"
@@ -8,5 +8,6 @@ venue: "Campus Lyon Tech La Doua"
 date: 2026-06-08
 end_date: 2026-06-12
 location: "Lyon, France"
-excerpt: "Attended as a participant."
+excerpt: "A week-long study group connecting mathematics with industrial and societal problems. Website: https://semes-lyon2026.sciencesconf.org/?lang=fr"
+show_excerpt: false
 ---
