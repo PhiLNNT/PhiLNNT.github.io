@@ -65,7 +65,7 @@
       </p>
     {% endif %}
 
-    {% if post.excerpt %}
+    {% if post.show_excerpt != false and post.excerpt %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% endif %}
   </article>
