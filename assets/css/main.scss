@@ -349,3 +349,37 @@
   background-clip: text;
   color: transparent;
 }
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.people-card {
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(120, 140, 170, 0.2);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.people-card__name {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
+}
+
+.people-card__name a {
+  text-decoration: none;
+}
+
+.people-card__role {
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+}
+
+.people-card__affiliation {
+  margin: 0;
+  opacity: 0.9;
+}
