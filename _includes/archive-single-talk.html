@@ -64,9 +64,14 @@
         {{ post.type | default: post.talk_type }}, {{ post.venue }}, {{ post.location }}
       </p>
     {% endif %}
-
-    {% if post.show_excerpt != false and post.excerpt %}
+    
+    {% unless post.collection == "talks" or post.collection == "scientific_events" %}
+      {% if post.show_excerpt != false and post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% endif %}
+    {% endunless %}    
+    <!-- {% if post.show_excerpt != false and post.excerpt %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% endif %}
+    {% endif %} -->
   </article>
 </div>
