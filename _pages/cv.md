@@ -11,13 +11,13 @@ redirect_from:
 
 Education
 ======
-- **Doctor of Philosophy in Applied Mathematics**, University of Rennes  
+- **Doctor of Philosophy in Applied Mathematics**, INSA Rennes  
   *Oct 2025 – expected Oct 2028*
   - Dissertation: Hamilton-Jacobi equations on networks and applications to population dynamics and connected micro-environments
   - IRMAR, INSA Rennes and Inria Rennes - Bretagne Atlantique
 
 - **French-Vietnamese Master of Applied Mathematics**, HCM University of Science (HCMUS) & University of Tours  
-  *Aug 2024 – expected Jul 2025*  
+  *Aug 2024 – Jul 2025*  
   - Studied advanced courses at HCMUS (Aug 2024 – Mar 2025)  
   - Internship for Master's thesis at IRMAR & INSA Rennes (Apr – Jun 2025)
 
