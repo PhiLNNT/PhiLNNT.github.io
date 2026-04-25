@@ -4,7 +4,7 @@ collection: teaching
 type: "Pre-Calculus and Geometry"
 permalink: /teaching/TrungPhu
 venue: "Trung Phu High school"
-date: 2022-02-01
+date: 2023-02-01
 location: "Ho Chi Minh, Vietnam"
 ---
 
