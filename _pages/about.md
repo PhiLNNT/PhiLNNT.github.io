@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is **Hoang Phi TRAN** (Trần Hoàng Phi in Vietnamese and Phi Hoang TRAN for publications). I am currently a first year Ph.D. student at IRMAR, INSA Rennes and INRIA. My thesis entitled *Hamilton-Jacobi equations on networks and applications to population dynamics and connected micro-environments* is supervised by Professors **[Olivier LEY](https://ley.perso.math.cnrs.fr/)**, **[Hélène HIVERT](https://geosciences.univ-rennes.fr/interlocuteurs/helene-hivert)** and **[Othmane JERHAOUI](https://irmar.univ-rennes.fr/interlocuteurs/othmane-jerhaoui)**.
+Hello! My name is **Hoang Phi TRAN** (Trần Hoàng Phi in Vietnamese and Phi Hoang TRAN in publications). I am currently a first year Ph.D. student at IRMAR, INSA Rennes and INRIA. My thesis entitled *Hamilton-Jacobi equations on networks and applications to population dynamics and connected micro-environments* is supervised by Professors **[Olivier LEY](https://ley.perso.math.cnrs.fr/)**, **[Hélène HIVERT](https://geosciences.univ-rennes.fr/interlocuteurs/helene-hivert)** and **[Othmane JERHAOUI](https://irmar.univ-rennes.fr/interlocuteurs/othmane-jerhaoui)**.
 
 Last year, I graduated from the French-Vietnamese Master of Applied Mathematics program ([MFVMA](https://mfvma.hcmus.edu.vn/)), jointly organized by the University of Tours (France) and the University of Science – VNU Ho Chi Minh City (Vietnam). I completed my Master’s thesis at **IRMAR & INSA Rennes**, where I focused on **complementarity problems and absolute value equations**, analyzing and comparing numerical methods, and exploring generalizations to nonlinear problems.
 
