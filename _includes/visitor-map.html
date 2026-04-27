@@ -1,91 +1,4 @@
-<section class="visitor-map-card" id="visitor-map-card">
-  <div class="visitor-map-card__header">
-    <p class="visitor-map-card__eyebrow">Website traffic</p>
-    <h2 class="visitor-map-card__title">Visitors around the world</h2>
-    <p class="visitor-map-card__text">
-      Live visitor globe powered by ClustrMaps.
-    </p>
-  </div>
-
-  <div class="visitor-map-card__embed">
-    <div class="visitor-map-card__globe">
-      <script
-        type="text/javascript"
-        id="clstr_globe"
-        src="//clustrmaps.com/globe.js?d=uUDOdQZdM-uxJP_HMtU2m3KU0dzo5pFMdshpEnCT7tM">
-      </script>
-    </div>
-  </div>
-</section>
-
-<script>
-(function () {
-  const card = document.getElementById("visitor-map-card");
-  if (!card) return;
-
-  function detectDarkMode() {
-    const html = document.documentElement;
-    const body = document.body;
-
-    const attrs = [
-      html.getAttribute("data-theme") || "",
-      html.getAttribute("data-color-mode") || "",
-      body ? body.getAttribute("data-theme") || "" : "",
-      body ? body.getAttribute("data-color-mode") || "" : ""
-    ].join(" ").toLowerCase();
-
-    const classes = [
-      html.className || "",
-      body ? body.className || "" : ""
-    ].join(" ").toLowerCase();
-
-    if (
-      attrs.includes("dark") ||
-      classes.includes("dark") ||
-      classes.includes("theme-dark") ||
-      classes.includes("night")
-    ) return true;
-
-    if (
-      attrs.includes("light") ||
-      classes.includes("light") ||
-      classes.includes("theme-light")
-    ) return false;
-
-    return window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches;
-  }
-
-  function applyMode() {
-    const isDark = detectDarkMode();
-    card.classList.toggle("is-dark", isDark);
-    card.classList.toggle("is-light", !isDark);
-  }
-
-  applyMode();
-
-  const observer = new MutationObserver(applyMode);
-  observer.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ["class", "data-theme", "data-color-mode"]
-  });
-
-  if (document.body) {
-    observer.observe(document.body, {
-      attributes: true,
-      attributeFilter: ["class", "data-theme", "data-color-mode"]
-    });
-  }
-
-  if (window.matchMedia) {
-    const mq = window.matchMedia("(prefers-color-scheme: dark)");
-    if (mq.addEventListener) mq.addEventListener("change", applyMode);
-    else if (mq.addListener) mq.addListener(applyMode);
-  }
-})();
-</script>
-
-<!-- <section class="visitor-map-card">
+<section class="visitor-map-card">
   <div class="visitor-map-card__header">
     <p class="visitor-map-card__eyebrow">Website traffic</p>
     <h2 class="visitor-map-card__title">Visitors around the world</h2>
@@ -101,7 +14,7 @@
       src="//clustrmaps.com/globe.js?d=uUDOdQZdM-uxJP_HMtU2m3KU0dzo5pFMdshpEnCT7tM">
     </script>
   </div>
-</section> -->
+</section>
 
 <!-- <section class="visitor-map-card" id="visitor-map-card">
   <div class="visitor-map-card__header">
