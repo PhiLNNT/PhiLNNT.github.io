@@ -471,6 +471,45 @@ a:not(.btn):focus {
   color: transparent;
 }
 
+/* ===== Simple global visitor globe ===== */
+:root {
+  --visitor-globe-scale: 0.60; /* change this once to resize everywhere */
+}
+
+.visitor-map-global {
+  margin: 2rem 0 1rem;
+}
+
+.visitor-map-global__eyebrow {
+  margin: 0 0 0.2rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.8;
+}
+
+.visitor-map-global__title {
+  margin: 0 0 0.35rem;
+  font-size: 1.35rem;
+}
+
+.visitor-map-global__text {
+  margin: 0 0 0.8rem;
+}
+
+.visitor-map-global__embed {
+  display: flex;
+  justify-content: center;
+  transform: scale(var(--visitor-globe-scale));
+  transform-origin: top center;
+  margin-bottom: calc(-220px * (1 - var(--visitor-globe-scale)));
+}
+
+@media (max-width: 640px) {
+  :root {
+    --visitor-globe-scale: 0.52;
+  }
+}
 //OLD
 // ---
 // ---
