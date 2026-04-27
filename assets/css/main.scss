@@ -29,6 +29,7 @@
         "vendor/font-awesome/brands",
         "vendor/magnific-popup/magnific-popup";
 
+/* ===== Sidebar fix on desktop ===== */
 @media (min-width: 64em) {
   .sidebar.sticky {
     overflow-y: auto !important;
@@ -52,7 +53,7 @@
   }
 }
 
-/* ===== Visitor globe card ===== */
+/* ===== Visitor map card ===== */
 .visitor-map-card {
   margin: 2.2rem 0 1.4rem;
   padding: 1.25rem 1.25rem 1rem;
@@ -85,17 +86,34 @@
 .visitor-map-card__embed {
   display: flex;
   justify-content: center;
-  align-items: center;
-  overflow-x: auto;
+  align-items: flex-start;
+  overflow: hidden;
   padding: 0.5rem 0 0.2rem;
+  transform: scale(0.6);
+  transform-origin: top center;
+  margin-bottom: -40px;
 }
 
 .visitor-map-card__globe {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
   transition: filter 0.25s ease;
+}
+
+.visitor-map-card__globe > *,
+.visitor-map-card__globe iframe,
+.visitor-map-card__globe canvas,
+.visitor-map-card__globe img,
+.visitor-map-card__globe div {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 auto;
 }
 
 .visitor-map-card.is-light {
@@ -157,50 +175,144 @@
   .visitor-map-card__title {
     font-size: 1.2rem;
   }
-}
 
-/* ===== Visitor map size + footer cleanup overrides ===== */
-.visitor-map-card__embed {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  overflow: hidden;
-  padding: 0.5rem 0 0.2rem;
-}
-
-.visitor-map-card__globe {
-  width: 100%;
-  max-width: 300px; /* decrease this number more if you want it smaller */
-  margin: 0 auto;
-  transition: filter 0.25s ease;
-}
-
-.visitor-map-card__globe > *,
-.visitor-map-card__globe iframe,
-.visitor-map-card__globe canvas,
-.visitor-map-card__globe img,
-.visitor-map-card__globe div {
-  display: block;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-  margin: 0 auto;
-}
-
-@media (max-width: 640px) {
   .visitor-map-card__globe {
     max-width: 100%;
   }
 }
 
-.visitor-map-card__embed {
-  transform: scale(0.6);
-  transform-origin: top center;
-  margin-bottom: -40px;
+/* ===== People page ===== */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.people-card {
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(120, 140, 170, 0.2);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.people-card__name {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
+}
+
+.people-card__name a {
+  text-decoration: none;
+}
+
+.people-card__role {
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+}
+
+.people-card__affiliation {
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* ===== Global link behavior ===== */
+/* Default: remove underline everywhere, keep theme colors */
+a:not(.btn),
+a:not(.btn):visited,
+a:not(.btn):hover,
+a:not(.btn):focus {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Optional local helpers */
+.underline-link,
+.underline-link:hover,
+.underline-link:focus,
+.underline-link:visited {
+  text-decoration: underline !important;
+}
+
+.no-underline-link,
+.no-underline-link:hover,
+.no-underline-link:focus,
+.no-underline-link:visited {
+  text-decoration: none !important;
+}
+
+.bold-link {
+  font-weight: 700 !important;
+}
+
+.italic-link {
+  font-style: italic !important;
+}
+
+/* ===== Global reusable link highlight utilities ===== */
+/* Uses the website's current default link colors automatically */
+.hl-link,
+.hl-link:visited {
+  color: var(--hl-link-color, var(--global-link-color)) !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.hl-link:hover,
+.hl-link:focus {
+  color: var(--hl-link-hover-color, var(--global-link-color-hover)) !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.hl-link:visited {
+  color: var(--hl-link-visited-color, var(--hl-link-color, var(--global-link-color-visited))) !important;
+}
+
+.hl-link--underline,
+.hl-link--underline:hover,
+.hl-link--underline:focus,
+.hl-link--underline:visited {
+  text-decoration: underline !important;
+}
+
+.hl-link--bold {
+  font-weight: 700 !important;
+}
+
+.hl-link--bolder {
+  font-weight: 800 !important;
+}
+
+.hl-link--italic {
+  font-style: italic !important;
+}
+
+.hl-link--normal {
+  font-weight: 400 !important;
+  font-style: normal !important;
+  text-decoration: none !important;
+}
+
+.hl-link--no-underline,
+.hl-link--no-underline:hover,
+.hl-link--no-underline:focus,
+.hl-link--no-underline:visited {
+  text-decoration: none !important;
+}
+
+.hl-link--smallcaps {
+  font-variant: small-caps !important;
+}
+
+.hl-link--spaced {
+  letter-spacing: 0.06em !important;
 }
 
 /* ===== Text highlight utilities ===== */
-
 /* colors */
 .highlight-blue { color: #1f6feb; }
 .highlight-sky { color: #0ea5e9; }
@@ -259,24 +371,28 @@
   padding: 0.08em 0.28em;
   border-radius: 0.25em;
 }
+
 .highlight-bg-blue {
   background: #dbeafe;
   color: #1d4ed8;
   padding: 0.08em 0.28em;
   border-radius: 0.25em;
 }
+
 .highlight-bg-green {
   background: #dcfce7;
   color: #166534;
   padding: 0.08em 0.28em;
   border-radius: 0.25em;
 }
+
 .highlight-bg-red {
   background: #fee2e2;
   color: #b91c1c;
   padding: 0.08em 0.28em;
   border-radius: 0.25em;
 }
+
 .highlight-bg-dark {
   background: #0f172a;
   color: #f8fafc;
@@ -293,6 +409,7 @@
   border-radius: 999px;
   font-weight: 700;
 }
+
 .highlight-pill-green {
   display: inline-block;
   background: #dcfce7;
@@ -301,6 +418,7 @@
   border-radius: 999px;
   font-weight: 700;
 }
+
 .highlight-pill-purple {
   display: inline-block;
   background: #ede9fe;
@@ -317,11 +435,13 @@
   border: 1px solid currentColor;
   border-radius: 0.3em;
 }
+
 .highlight-leftbar-blue {
   display: inline-block;
   padding-left: 0.45em;
   border-left: 4px solid #2563eb;
 }
+
 .highlight-leftbar-red {
   display: inline-block;
   padding-left: 0.45em;
@@ -342,6 +462,7 @@
   background-clip: text;
   color: transparent;
 }
+
 .highlight-gradient-rose-orange {
   background: linear-gradient(90deg, #e11d48, #f97316);
   -webkit-background-clip: text;
@@ -350,130 +471,483 @@
   color: transparent;
 }
 
-.people-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1rem;
-  margin: 1rem 0 2rem;
-}
+//OLD
+// ---
+// ---
 
-.people-card {
-  padding: 1rem 1.1rem;
-  border: 1px solid rgba(120, 140, 170, 0.2);
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.04);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
-}
+// /*
+//  * This file controls what is imported from /_sass
+//  */
+// @import "vendor/breakpoint/breakpoint",
+//         "themes",
+//         "theme/default",
+//         "theme/dark",
+//         "include/mixins",
+//         "vendor/susy/susy",
+//         "layout/reset",
+//         "layout/base",
+//         "include/utilities",
+//         "layout/tables",
+//         "layout/buttons",
+//         "layout/notices",
+//         "layout/masthead",
+//         "layout/navigation",
+//         "layout/footer",
+//         "syntax",
+//         "layout/forms",
+//         "layout/page",
+//         "layout/archive",
+//         "layout/sidebar",
+//         "vendor/font-awesome/fontawesome",
+//         "vendor/font-awesome/solid",
+//         "vendor/font-awesome/brands",
+//         "vendor/magnific-popup/magnific-popup";
 
-.people-card__name {
-  margin: 0 0 0.35rem;
-  font-size: 1.1rem;
-}
+// @media (min-width: 64em) {
+//   .sidebar.sticky {
+//     overflow-y: auto !important;
+//     max-height: calc(100vh - 5rem) !important;
+//     padding-right: 0.4rem;
+//   }
 
-.people-card__name a {
-  text-decoration: none;
-}
+//   .author__content,
+//   .author__urls li,
+//   .author__urls a,
+//   .author__urls .label {
+//     white-space: normal !important;
+//     word-break: break-word;
+//     overflow-wrap: anywhere;
+//   }
 
-.people-card__role {
-  margin: 0 0 0.25rem;
-  font-weight: 600;
-}
+//   .author__urls a {
+//     display: flex;
+//     align-items: flex-start;
+//     gap: 0.45rem;
+//   }
+// }
 
-.people-card__affiliation {
-  margin: 0;
-  opacity: 0.9;
-}
+// /* ===== Visitor globe card ===== */
+// .visitor-map-card {
+//   margin: 2.2rem 0 1.4rem;
+//   padding: 1.25rem 1.25rem 1rem;
+//   border-radius: 24px;
+//   text-align: center;
+//   transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+// }
 
-/* remove underline from item titles on archive/list pages */
-.archive__item-title a,
-.archive__item-title a:hover,
-.archive__item-title a:focus,
-.archive__item-title a:visited {
-  text-decoration: none !important;
-  border-bottom: 0 !important;
-  box-shadow: none !important;
-}
+// .visitor-map-card__header {
+//   margin-bottom: 1rem;
+// }
 
-/* optional underline when you explicitly want it */
-.underline-link,
-.underline-link:hover,
-.underline-link:focus,
-.underline-link:visited {
-  text-decoration: underline !important;
-}
+// .visitor-map-card__eyebrow {
+//   margin: 0 0 0.3rem;
+//   text-transform: uppercase;
+//   letter-spacing: 0.12em;
+//   font-size: 0.72rem;
+// }
 
-/* optional styles you can use explicitly */
-.no-underline-link,
-.no-underline-link:hover,
-.no-underline-link:focus,
-.no-underline-link:visited {
-  text-decoration: none !important;
-}
+// .visitor-map-card__title {
+//   margin: 0;
+//   font-size: 1.45rem;
+// }
 
-.bold-link { font-weight: 700; }
-.italic-link { font-style: italic; }
+// .visitor-map-card__text {
+//   margin: 0.45rem 0 0;
+//   font-size: 0.95rem;
+// }
+
+// .visitor-map-card__embed {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   overflow-x: auto;
+//   padding: 0.5rem 0 0.2rem;
+// }
+
+// .visitor-map-card__globe {
+//   display: inline-flex;
+//   justify-content: center;
+//   align-items: center;
+//   max-width: 100%;
+//   transition: filter 0.25s ease;
+// }
+
+// .visitor-map-card.is-light {
+//   background:
+//     radial-gradient(circle at top right, rgba(80, 180, 255, 0.12), transparent 26%),
+//     linear-gradient(145deg, #f7fbff 0%, #eef5fb 45%, #e8f0f8 100%);
+//   color: #15243a;
+//   border: 1px solid rgba(70, 130, 190, 0.14);
+//   box-shadow: 0 12px 32px rgba(40, 70, 110, 0.10);
+// }
+
+// .visitor-map-card.is-light .visitor-map-card__eyebrow {
+//   color: #2f78b7;
+// }
+
+// .visitor-map-card.is-light .visitor-map-card__title {
+//   color: #0f2138;
+// }
+
+// .visitor-map-card.is-light .visitor-map-card__text {
+//   color: #47627d;
+// }
+
+// .visitor-map-card.is-light .visitor-map-card__globe {
+//   filter: none;
+// }
+
+// .visitor-map-card.is-dark {
+//   background:
+//     radial-gradient(circle at top right, rgba(96, 209, 255, 0.16), transparent 28%),
+//     linear-gradient(145deg, #08111f 0%, #0d1728 42%, #111e34 100%);
+//   color: #eef6ff;
+//   border: 1px solid rgba(142, 202, 255, 0.12);
+//   box-shadow: 0 18px 50px rgba(4, 12, 26, 0.22);
+// }
+
+// .visitor-map-card.is-dark .visitor-map-card__eyebrow {
+//   color: #8dcfff;
+// }
+
+// .visitor-map-card.is-dark .visitor-map-card__title {
+//   color: #ffffff;
+// }
+
+// .visitor-map-card.is-dark .visitor-map-card__text {
+//   color: #c9ddf8;
+// }
+
+// .visitor-map-card.is-dark .visitor-map-card__globe {
+//   filter: invert(1) hue-rotate(180deg) saturate(1.08) contrast(1.03) brightness(0.93);
+// }
+
+// @media (max-width: 640px) {
+//   .visitor-map-card {
+//     padding: 1rem;
+//     border-radius: 20px;
+//   }
+
+//   .visitor-map-card__title {
+//     font-size: 1.2rem;
+//   }
+// }
+
+// /* ===== Visitor map size + footer cleanup overrides ===== */
+// .visitor-map-card__embed {
+//   display: flex;
+//   justify-content: center;
+//   align-items: flex-start;
+//   overflow: hidden;
+//   padding: 0.5rem 0 0.2rem;
+// }
+
+// .visitor-map-card__globe {
+//   width: 100%;
+//   max-width: 300px; /* decrease this number more if you want it smaller */
+//   margin: 0 auto;
+//   transition: filter 0.25s ease;
+// }
+
+// .visitor-map-card__globe > *,
+// .visitor-map-card__globe iframe,
+// .visitor-map-card__globe canvas,
+// .visitor-map-card__globe img,
+// .visitor-map-card__globe div {
+//   display: block;
+//   width: 100% !important;
+//   max-width: 100% !important;
+//   height: auto !important;
+//   margin: 0 auto;
+// }
+
+// @media (max-width: 640px) {
+//   .visitor-map-card__globe {
+//     max-width: 100%;
+//   }
+// }
+
+// .visitor-map-card__embed {
+//   transform: scale(0.6);
+//   transform-origin: top center;
+//   margin-bottom: -40px;
+// }
+
+// /* ===== Text highlight utilities ===== */
+
+// /* colors */
+// .highlight-blue { color: #1f6feb; }
+// .highlight-sky { color: #0ea5e9; }
+// .highlight-cyan { color: #06b6d4; }
+// .highlight-teal { color: #0f766e; }
+// .highlight-green { color: #15803d; }
+// .highlight-lime { color: #65a30d; }
+// .highlight-yellow { color: #ca8a04; }
+// .highlight-orange { color: #ea580c; }
+// .highlight-red { color: #dc2626; }
+// .highlight-rose { color: #e11d48; }
+// .highlight-pink { color: #db2777; }
+// .highlight-purple { color: #9333ea; }
+// .highlight-violet { color: #7c3aed; }
+// .highlight-indigo { color: #4f46e5; }
+// .highlight-brown { color: #92400e; }
+// .highlight-gray { color: #475569; }
+// .highlight-dark { color: #0f172a; }
+// .highlight-white { color: #ffffff; }
+
+// /* font weight / style */
+// .highlight-bold { font-weight: 700; }
+// .highlight-bolder { font-weight: 800; }
+// .highlight-light { font-weight: 300; }
+// .highlight-italic { font-style: italic; }
+// .highlight-oblique { font-style: oblique; }
+// .highlight-smallcaps { font-variant: small-caps; }
+
+// /* decoration */
+// .highlight-underline { text-decoration: underline; }
+// .highlight-double-underline {
+//   text-decoration-line: underline;
+//   text-decoration-style: double;
+// }
+// .highlight-dotted {
+//   text-decoration-line: underline;
+//   text-decoration-style: dotted;
+// }
+// .highlight-wavy {
+//   text-decoration-line: underline;
+//   text-decoration-style: wavy;
+// }
+// .highlight-strike { text-decoration: line-through; }
+// .highlight-overline { text-decoration: overline; }
+
+// /* spacing / transform */
+// .highlight-upper { text-transform: uppercase; }
+// .highlight-lower { text-transform: lowercase; }
+// .highlight-capitalize { text-transform: capitalize; }
+// .highlight-spaced { letter-spacing: 0.08em; }
+// .highlight-wide { letter-spacing: 0.16em; }
+
+// /* backgrounds */
+// .highlight-bg-yellow {
+//   background: #fef08a;
+//   padding: 0.08em 0.28em;
+//   border-radius: 0.25em;
+// }
+// .highlight-bg-blue {
+//   background: #dbeafe;
+//   color: #1d4ed8;
+//   padding: 0.08em 0.28em;
+//   border-radius: 0.25em;
+// }
+// .highlight-bg-green {
+//   background: #dcfce7;
+//   color: #166534;
+//   padding: 0.08em 0.28em;
+//   border-radius: 0.25em;
+// }
+// .highlight-bg-red {
+//   background: #fee2e2;
+//   color: #b91c1c;
+//   padding: 0.08em 0.28em;
+//   border-radius: 0.25em;
+// }
+// .highlight-bg-dark {
+//   background: #0f172a;
+//   color: #f8fafc;
+//   padding: 0.08em 0.28em;
+//   border-radius: 0.25em;
+// }
+
+// /* pills / badges */
+// .highlight-pill-blue {
+//   display: inline-block;
+//   background: #dbeafe;
+//   color: #1d4ed8;
+//   padding: 0.12em 0.6em;
+//   border-radius: 999px;
+//   font-weight: 700;
+// }
+// .highlight-pill-green {
+//   display: inline-block;
+//   background: #dcfce7;
+//   color: #166534;
+//   padding: 0.12em 0.6em;
+//   border-radius: 999px;
+//   font-weight: 700;
+// }
+// .highlight-pill-purple {
+//   display: inline-block;
+//   background: #ede9fe;
+//   color: #6d28d9;
+//   padding: 0.12em 0.6em;
+//   border-radius: 999px;
+//   font-weight: 700;
+// }
+
+// /* borders / boxes */
+// .highlight-box {
+//   display: inline-block;
+//   padding: 0.08em 0.35em;
+//   border: 1px solid currentColor;
+//   border-radius: 0.3em;
+// }
+// .highlight-leftbar-blue {
+//   display: inline-block;
+//   padding-left: 0.45em;
+//   border-left: 4px solid #2563eb;
+// }
+// .highlight-leftbar-red {
+//   display: inline-block;
+//   padding-left: 0.45em;
+//   border-left: 4px solid #dc2626;
+// }
+
+// /* visual effects */
+// .highlight-shadow { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18); }
+// .highlight-glow-blue { text-shadow: 0 0 8px rgba(37, 99, 235, 0.35); }
+// .highlight-glow-pink { text-shadow: 0 0 8px rgba(219, 39, 119, 0.35); }
+// .highlight-fade { opacity: 0.78; }
+
+// /* gradient text */
+// .highlight-gradient-blue-purple {
+//   background: linear-gradient(90deg, #2563eb, #7c3aed);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   background-clip: text;
+//   color: transparent;
+// }
+// .highlight-gradient-rose-orange {
+//   background: linear-gradient(90deg, #e11d48, #f97316);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   background-clip: text;
+//   color: transparent;
+// }
+
+// .people-grid {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+//   gap: 1rem;
+//   margin: 1rem 0 2rem;
+// }
+
+// .people-card {
+//   padding: 1rem 1.1rem;
+//   border: 1px solid rgba(120, 140, 170, 0.2);
+//   border-radius: 16px;
+//   background: rgba(255, 255, 255, 0.04);
+//   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+// }
+
+// .people-card__name {
+//   margin: 0 0 0.35rem;
+//   font-size: 1.1rem;
+// }
+
+// .people-card__name a {
+//   text-decoration: none;
+// }
+
+// .people-card__role {
+//   margin: 0 0 0.25rem;
+//   font-weight: 600;
+// }
+
+// .people-card__affiliation {
+//   margin: 0;
+//   opacity: 0.9;
+// }
+
+// /* remove underline from item titles on archive/list pages */
+// .archive__item-title a,
+// .archive__item-title a:hover,
+// .archive__item-title a:focus,
+// .archive__item-title a:visited {
+//   text-decoration: none !important;
+//   border-bottom: 0 !important;
+//   box-shadow: none !important;
+// }
+
+// /* optional underline when you explicitly want it */
+// .underline-link,
+// .underline-link:hover,
+// .underline-link:focus,
+// .underline-link:visited {
+//   text-decoration: underline !important;
+// }
+
+// /* optional styles you can use explicitly */
+// .no-underline-link,
+// .no-underline-link:hover,
+// .no-underline-link:focus,
+// .no-underline-link:visited {
+//   text-decoration: none !important;
+// }
+
+// .bold-link { font-weight: 700; }
+// .italic-link { font-style: italic; }
 
 
-/* ===== Global reusable link highlight utilities ===== */
+// /* ===== Global reusable link highlight utilities ===== */
 
-.hl-link,
-.hl-link:visited {
-  color: var(--hl-link-color, var(--global-link-color)) !important;
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-}
+// .hl-link,
+// .hl-link:visited {
+//   color: var(--hl-link-color, var(--global-link-color)) !important;
+//   text-decoration: none !important;
+//   border-bottom: none !important;
+//   box-shadow: none !important;
+// }
 
-.hl-link:hover,
-.hl-link:focus {
-  color: var(--hl-link-hover-color, var(--global-link-color-hover)) !important;
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-}
+// .hl-link:hover,
+// .hl-link:focus {
+//   color: var(--hl-link-hover-color, var(--global-link-color-hover)) !important;
+//   text-decoration: none !important;
+//   border-bottom: none !important;
+//   box-shadow: none !important;
+// }
 
-.hl-link:visited {
-  color: var(--hl-link-visited-color, var(--hl-link-color, var(--global-link-color-visited))) !important;
-}
+// .hl-link:visited {
+//   color: var(--hl-link-visited-color, var(--hl-link-color, var(--global-link-color-visited))) !important;
+// }
 
-/* style modifiers */
-.hl-link--underline,
-.hl-link--underline:hover,
-.hl-link--underline:focus,
-.hl-link--underline:visited {
-  text-decoration: underline !important;
-}
+// /* style modifiers */
+// .hl-link--underline,
+// .hl-link--underline:hover,
+// .hl-link--underline:focus,
+// .hl-link--underline:visited {
+//   text-decoration: underline !important;
+// }
 
-.hl-link--bold {
-  font-weight: 700 !important;
-}
+// .hl-link--bold {
+//   font-weight: 700 !important;
+// }
 
-.hl-link--italic {
-  font-style: italic !important;
-}
+// .hl-link--italic {
+//   font-style: italic !important;
+// }
 
-.hl-link--normal {
-  font-weight: 400 !important;
-  font-style: normal !important;
-  text-decoration: none !important;
-}
+// .hl-link--normal {
+//   font-weight: 400 !important;
+//   font-style: normal !important;
+//   text-decoration: none !important;
+// }
 
-.hl-link--no-underline,
-.hl-link--no-underline:hover,
-.hl-link--no-underline:focus,
-.hl-link--no-underline:visited {
-  text-decoration: none !important;
-}
+// .hl-link--no-underline,
+// .hl-link--no-underline:hover,
+// .hl-link--no-underline:focus,
+// .hl-link--no-underline:visited {
+//   text-decoration: none !important;
+// }
 
-/* optional extras */
-.hl-link--bolder {
-  font-weight: 800 !important;
-}
+// /* optional extras */
+// .hl-link--bolder {
+//   font-weight: 800 !important;
+// }
 
-.hl-link--smallcaps {
-  font-variant: small-caps !important;
-}
+// .hl-link--smallcaps {
+//   font-variant: small-caps !important;
+// }
 
-.hl-link--spaced {
-  letter-spacing: 0.06em !important;
-}
+// .hl-link--spaced {
+//   letter-spacing: 0.06em !important;
+// }
