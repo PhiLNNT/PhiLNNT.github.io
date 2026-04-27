@@ -21,4 +21,3 @@ Feel free to explore my research, teaching experience, and CV. You can reach me 
 
 Others
 ======
-{% include visitor-map.html %}
