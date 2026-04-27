@@ -1,7 +1,10 @@
 ---
-permalink: /about/
+permalink: /
 title: "About me"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 Hello! My name is **Hoang Phi TRAN** (Trần Hoàng Phi in Vietnamese and Phi Hoang TRAN in publications). I am currently a first year Ph.D. student at IRMAR, INSA Rennes and INRIA. My thesis entitled *Hamilton-Jacobi equations on networks and applications to population dynamics and connected micro-environments* is supervised by Professors **[Olivier LEY](https://ley.perso.math.cnrs.fr/)**, **[Hélène HIVERT](https://geosciences.univ-rennes.fr/interlocuteurs/helene-hivert)** and **[Othmane JERHAOUI](https://irmar.univ-rennes.fr/interlocuteurs/othmane-jerhaoui)**.
