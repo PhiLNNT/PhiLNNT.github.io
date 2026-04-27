@@ -412,3 +412,68 @@
 
 .bold-link { font-weight: 700; }
 .italic-link { font-style: italic; }
+
+
+/* ===== Global reusable link highlight utilities ===== */
+
+.hl-link,
+.hl-link:visited {
+  color: var(--hl-link-color, var(--global-link-color)) !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.hl-link:hover,
+.hl-link:focus {
+  color: var(--hl-link-hover-color, var(--global-link-color-hover)) !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.hl-link:visited {
+  color: var(--hl-link-visited-color, var(--hl-link-color, var(--global-link-color-visited))) !important;
+}
+
+/* style modifiers */
+.hl-link--underline,
+.hl-link--underline:hover,
+.hl-link--underline:focus,
+.hl-link--underline:visited {
+  text-decoration: underline !important;
+}
+
+.hl-link--bold {
+  font-weight: 700 !important;
+}
+
+.hl-link--italic {
+  font-style: italic !important;
+}
+
+.hl-link--normal {
+  font-weight: 400 !important;
+  font-style: normal !important;
+  text-decoration: none !important;
+}
+
+.hl-link--no-underline,
+.hl-link--no-underline:hover,
+.hl-link--no-underline:focus,
+.hl-link--no-underline:visited {
+  text-decoration: none !important;
+}
+
+/* optional extras */
+.hl-link--bolder {
+  font-weight: 800 !important;
+}
+
+.hl-link--smallcaps {
+  font-variant: small-caps !important;
+}
+
+.hl-link--spaced {
+  letter-spacing: 0.06em !important;
+}
