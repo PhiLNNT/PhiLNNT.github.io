@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /about/
 title: "About me"
 author_profile: true
 redirect_from: 
@@ -22,4 +22,4 @@ Feel free to explore my research, teaching experience, and CV. You can reach me 
 Others
 ======
 
-{% include visitor-map.html %}
+
