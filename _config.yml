@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Phi Hoang TRAN"
 title_separator          : "-"
 name                     : &name "Phi Hoang TRAN"
-description              : &description "personal description"
+description              : &description "Personal academic website of Phi Hoang TRAN, Ph.D. student in Applied Mathematics at IRMAR, INSA Rennes and Inria, working on Hamilton-Jacobi equations on networks, numerical analysis and PDEs."
 url                      : https://PhiLNNT.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "PhiLNNT/PhiLNNT.github.io"
@@ -143,15 +143,21 @@ og_image                 :  # Social media default site image
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
+# For specifying social profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Phi Hoang TRAN"
+  links:
+    - "https://scholar.google.com/citations?hl=vi&user=TGfEyyQAAAAJ"
+    - "https://orcid.org/0009-0001-3421-9735"
+    - "https://www.researchgate.net/profile/Hoang-Phi-Tran-2"
+    - "https://github.com/PhiLNNT"
+    - "https://www.linkedin.com/in/hoang-phi-tran"
 
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
