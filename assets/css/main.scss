@@ -91,13 +91,21 @@
 .visitor-map-card__embed {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  overflow: hidden;
-  padding: 0.5rem 0 0.2rem;
-  transform: scale(var(--visitor-globe-scale));
-  transform-origin: top center;
-  margin-bottom: -40px;
+  align-items: center;
+  overflow: visible;
+  padding: 0.75rem 0;
+  min-height: 260px;
 }
+// .visitor-map-card__embed {
+//   display: flex;
+//   justify-content: center;
+//   align-items: flex-start;
+//   overflow: hidden;
+//   padding: 0.5rem 0 0.2rem;
+//   transform: scale(var(--visitor-globe-scale));
+//   transform-origin: top center;
+//   margin-bottom: -40px;
+// }
 
 .visitor-map-card__globe {
   display: inline-flex;
