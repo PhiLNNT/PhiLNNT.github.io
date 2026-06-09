@@ -475,3 +475,23 @@ a:not(.btn):focus {
   background-clip: text;
   color: transparent;
 }
+
+
+.visitor-map-only {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
+  overflow: visible;
+}
+
+.hidden-visitor-tracker {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
