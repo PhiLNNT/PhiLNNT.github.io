@@ -14,6 +14,6 @@ show_excerpt: true
 
 Attend as a selected and granted participant.
 
-Invitation letter: <a href="https://viasm.edu.vn/hdkh/IACR-VIASM-School-2026" class="hl-link" target="_blank" rel="noopener" >IACR-VIASM Summer School</a>
+Invitation letter: <a href="/files/certificates/IACR_VIASM_Summer_School_2026_Invitation_Merged_All_Review_Status-pages-58.pdf" class="hl-link" target="_blank" rel="noopener"> PDF </a>
 
 Website: <a href="https://viasm.edu.vn/hdkh/IACR-VIASM-School-2026" class="hl-link" target="_blank" rel="noopener" >IACR-VIASM Summer School</a>
