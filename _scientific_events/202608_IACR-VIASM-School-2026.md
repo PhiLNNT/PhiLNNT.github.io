@@ -1,4 +1,5 @@
 ---
+published: false
 title: "IACR-VIASM Summer School on Cryptography 2026"
 collection: scientific_events
 type: "Summer school"
