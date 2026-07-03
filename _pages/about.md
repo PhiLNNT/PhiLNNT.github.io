@@ -17,7 +17,7 @@ After graduation, I worked as a **Mathematics teacher** at Thang Tien Thang Long
 
 My academic interests include but are not limited to **optimization**, **variational analysis**, **numerical methods**, **PDEs**, and **machine learning applications**. I enjoy bridging rigorous mathematical theory with computational tools such as MATLAB, Python, RStudio, and FreeFEM++.
 
-Feel free to explore my research, teaching experience, and CV. You can reach me at [hoang-phi.tran@insa-rennes.fr](mailto:hoang-phi.tran@insa-rennes.fr) or connect on <a href="https://www.linkedin.com/in/hoang-phi-tran" class="hl-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+Feel free to explore my research, teaching experience, and <a href="/files/CV_Phi_07-2026.pdf" class="hl-link" target="_blank" rel="noopener noreferrer">CV</a>. You can reach me at [hoang-phi.tran@insa-rennes.fr](mailto:hoang-phi.tran@insa-rennes.fr) or connect on <a href="https://www.linkedin.com/in/hoang-phi-tran" class="hl-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
 
 Others
 ======
