@@ -11,4 +11,4 @@ excerpt: "Attended as a participant."
 show_excerpt: false
 ---
 
-Website: <a href="https://indico.math.cnrs.fr/event/16399/" class="hl-link" target="_blank" rel="noopener" > Cookie Workshop </a>
+Website: <a href="https://indico.math.cnrs.fr/event/16399/" class="hl-link" target="_blank" rel="noopener" >Cookie Workshop</a>
