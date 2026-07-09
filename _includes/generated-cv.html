@@ -1,66 +1,135 @@
 <style>
+/*
+  Website-native CV styling.
+  This deliberately inherits the Academic Pages / Minimal Mistakes theme colors
+  instead of forcing a white LaTeX-like card.  Therefore normal text follows the
+  active theme, and dark mode stays readable.
+*/
 .cv-web {
-  --cv-page-bg: #ffffff;
-  --cv-text: #333333;
-  --cv-muted: #4a4a4a;
-  --cv-accent: #005389;
-  --cv-link: #003da5;
-  --cv-rule: #005389;
+  --cv-accent: var(--global-link-color, var(--link-color, #52adc8));
+  --cv-rule: var(--cv-accent);
   font-size: .94rem;
   line-height: 1.45;
-  color: var(--cv-text) !important;
-  background: var(--cv-page-bg);
-  padding: 1.25rem;
-  border-radius: 10px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, .08);
-  color-scheme: light;
+  color: inherit;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 .cv-web * { box-sizing: border-box; }
-.cv-web a { color: var(--cv-link) !important; text-decoration: none; }
+.cv-web a { text-decoration: none; }
 .cv-web a:hover { text-decoration: underline; }
-.cv-actions { margin: 0 0 1.25rem 0; display: flex; gap: .75rem; flex-wrap: wrap; }
-.cv-button { display: inline-block; padding: .55rem .85rem; border: 1px solid var(--cv-accent); border-radius: 6px; text-decoration: none; font-weight: 600; color: var(--cv-link) !important; background: #ffffff; }
+.cv-actions {
+  margin: 0 0 1.25rem 0;
+  display: flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+.cv-button {
+  display: inline-block;
+  padding: .55rem .85rem;
+  border: 1px solid var(--cv-accent);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--cv-accent);
+  background: transparent;
+}
+.cv-button:hover {
+  background: color-mix(in srgb, var(--cv-accent) 10%, transparent);
+  text-decoration: none;
+}
 .cv-header { margin-bottom: 1.25rem; }
-.cv-header h1 { margin-bottom: .35rem; color: var(--cv-accent) !important; }
-.cv-contact { display: flex; flex-wrap: wrap; gap: .35rem 1.1rem; font-size: .9rem; color: var(--cv-text) !important; }
+.cv-header h1 {
+  margin-bottom: .35rem;
+  color: inherit;
+}
+.cv-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem 1.1rem;
+  font-size: .9rem;
+  color: inherit;
+}
 .cv-section { margin-top: 1.1rem; }
-.cv-section h2 { color: var(--cv-accent) !important; font-size: 1.15rem; border-bottom: 1px solid var(--cv-rule); padding-bottom: .25rem; margin-bottom: .65rem; }
-.cv-entry { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .15rem 1rem; margin-bottom: .7rem; color: var(--cv-text) !important; }
-.cv-entry h3 { margin: 0; font-size: 1rem; color: var(--cv-text) !important; }
-.cv-entry-subtitle { font-style: italic; color: var(--cv-muted) !important; }
-.cv-entry-meta { text-align: right; font-style: italic; color: var(--cv-muted) !important; }
-.cv-entry-body, .cv-entry-list { grid-column: 1 / -1; color: var(--cv-text) !important; }
-.cv-entry-list { margin-top: .25rem; margin-bottom: .15rem; }
-.cv-definition-list { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: .2rem 1.2rem; color: var(--cv-text) !important; }
-.cv-definition-list dt { font-weight: 700; color: var(--cv-text) !important; }
-.cv-definition-list dd { margin: 0; color: var(--cv-text) !important; }
-.cv-highlight { color: var(--cv-link) !important; }
-.cv-section-body p { margin: .35rem 0; color: var(--cv-text) !important; }
-@media (prefers-color-scheme: dark) {
-  /* Keep the CV as a readable white document card inside the dark website. */
-  .cv-web {
-    --cv-page-bg: #ffffff;
-    --cv-text: #333333;
-    --cv-muted: #4a4a4a;
-    --cv-accent: #005389;
-    --cv-link: #003da5;
-    --cv-rule: #005389;
-  }
+.cv-section h2 {
+  color: var(--cv-accent);
+  font-size: 1.15rem;
+  border-bottom: 1px solid var(--cv-rule);
+  padding-bottom: .25rem;
+  margin-bottom: .65rem;
+}
+.cv-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: .15rem 1rem;
+  margin-bottom: .7rem;
+  color: inherit;
+}
+.cv-entry h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: inherit;
+}
+.cv-entry-subtitle {
+  font-style: italic;
+  color: inherit;
+  opacity: .82;
+}
+.cv-entry-meta {
+  text-align: right;
+  font-style: italic;
+  color: inherit;
+  opacity: .82;
+}
+.cv-entry-body, .cv-entry-list {
+  grid-column: 1 / -1;
+  color: inherit;
+}
+.cv-entry-list {
+  margin-top: .25rem;
+  margin-bottom: .15rem;
+}
+.cv-entry-list li::marker { color: currentColor; }
+.cv-definition-list {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: .2rem 1.2rem;
+  color: inherit;
+}
+.cv-definition-list dt {
+  font-weight: 700;
+  color: inherit;
+}
+.cv-definition-list dd {
+  margin: 0;
+  color: inherit;
+}
+.cv-highlight {
+  color: var(--cv-accent);
+  font-weight: 600;
+}
+.cv-section-body p {
+  margin: .35rem 0;
+  color: inherit;
+}
+@supports not (background: color-mix(in srgb, white 10%, transparent)) {
+  .cv-button:hover { background: transparent; }
 }
 @media print {
   .cv-web {
+    background: #ffffff !important;
+    color: #333333 !important;
     box-shadow: none;
     border-radius: 0;
     padding: 0;
-    background: #ffffff !important;
-    color: #333333 !important;
   }
   .cv-actions { display: none; }
-  .cv-web a { color: #003da5 !important; }
-  .cv-entry-meta, .cv-entry-subtitle { color: #4a4a4a !important; }
+  .cv-web a, .cv-section h2, .cv-highlight { color: #003da5 !important; }
+  .cv-section h2 { border-bottom-color: #005389 !important; }
+  .cv-entry-meta, .cv-entry-subtitle { color: #4a4a4a !important; opacity: 1; }
 }
 @media (max-width: 700px) {
-  .cv-web { padding: 1rem; }
   .cv-entry { grid-template-columns: 1fr; }
   .cv-entry-meta { text-align: left; }
   .cv-definition-list { grid-template-columns: 1fr; }
