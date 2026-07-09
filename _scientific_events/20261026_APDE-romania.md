@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 sitemap: false
 title: "Recent Developments in Analysis and PDEs"
 collection: scientific_events
