@@ -1,24 +1,66 @@
 <style>
+.cv-web {
+  --cv-page-bg: #ffffff;
+  --cv-text: #333333;
+  --cv-muted: #4a4a4a;
+  --cv-accent: #005389;
+  --cv-link: #003da5;
+  --cv-rule: #005389;
+  font-size: .94rem;
+  line-height: 1.45;
+  color: var(--cv-text) !important;
+  background: var(--cv-page-bg);
+  padding: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .08);
+  color-scheme: light;
+}
+.cv-web * { box-sizing: border-box; }
+.cv-web a { color: var(--cv-link) !important; text-decoration: none; }
+.cv-web a:hover { text-decoration: underline; }
 .cv-actions { margin: 0 0 1.25rem 0; display: flex; gap: .75rem; flex-wrap: wrap; }
-.cv-button { display: inline-block; padding: .55rem .85rem; border: 1px solid #005389; border-radius: 6px; text-decoration: none; font-weight: 600; }
-.cv-web { font-size: .94rem; line-height: 1.45; }
+.cv-button { display: inline-block; padding: .55rem .85rem; border: 1px solid var(--cv-accent); border-radius: 6px; text-decoration: none; font-weight: 600; color: var(--cv-link) !important; background: #ffffff; }
 .cv-header { margin-bottom: 1.25rem; }
-.cv-header h1 { margin-bottom: .35rem; color: #005389; }
-.cv-contact { display: flex; flex-wrap: wrap; gap: .35rem 1.1rem; font-size: .9rem; }
+.cv-header h1 { margin-bottom: .35rem; color: var(--cv-accent) !important; }
+.cv-contact { display: flex; flex-wrap: wrap; gap: .35rem 1.1rem; font-size: .9rem; color: var(--cv-text) !important; }
 .cv-section { margin-top: 1.1rem; }
-.cv-section h2 { color: #005389; font-size: 1.15rem; border-bottom: 1px solid #005389; padding-bottom: .25rem; margin-bottom: .65rem; }
-.cv-entry { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .15rem 1rem; margin-bottom: .7rem; }
-.cv-entry h3 { margin: 0; font-size: 1rem; }
-.cv-entry-subtitle { font-style: italic; }
-.cv-entry-meta { text-align: right; font-style: italic; color: #444; }
-.cv-entry-body, .cv-entry-list { grid-column: 1 / -1; }
+.cv-section h2 { color: var(--cv-accent) !important; font-size: 1.15rem; border-bottom: 1px solid var(--cv-rule); padding-bottom: .25rem; margin-bottom: .65rem; }
+.cv-entry { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .15rem 1rem; margin-bottom: .7rem; color: var(--cv-text) !important; }
+.cv-entry h3 { margin: 0; font-size: 1rem; color: var(--cv-text) !important; }
+.cv-entry-subtitle { font-style: italic; color: var(--cv-muted) !important; }
+.cv-entry-meta { text-align: right; font-style: italic; color: var(--cv-muted) !important; }
+.cv-entry-body, .cv-entry-list { grid-column: 1 / -1; color: var(--cv-text) !important; }
 .cv-entry-list { margin-top: .25rem; margin-bottom: .15rem; }
-.cv-definition-list { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: .2rem 1.2rem; }
-.cv-definition-list dt { font-weight: 700; }
-.cv-definition-list dd { margin: 0; }
-.cv-highlight { color: #032bc6; }
-.cv-section-body p { margin: .35rem 0; }
+.cv-definition-list { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: .2rem 1.2rem; color: var(--cv-text) !important; }
+.cv-definition-list dt { font-weight: 700; color: var(--cv-text) !important; }
+.cv-definition-list dd { margin: 0; color: var(--cv-text) !important; }
+.cv-highlight { color: var(--cv-link) !important; }
+.cv-section-body p { margin: .35rem 0; color: var(--cv-text) !important; }
+@media (prefers-color-scheme: dark) {
+  /* Keep the CV as a readable white document card inside the dark website. */
+  .cv-web {
+    --cv-page-bg: #ffffff;
+    --cv-text: #333333;
+    --cv-muted: #4a4a4a;
+    --cv-accent: #005389;
+    --cv-link: #003da5;
+    --cv-rule: #005389;
+  }
+}
+@media print {
+  .cv-web {
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    background: #ffffff !important;
+    color: #333333 !important;
+  }
+  .cv-actions { display: none; }
+  .cv-web a { color: #003da5 !important; }
+  .cv-entry-meta, .cv-entry-subtitle { color: #4a4a4a !important; }
+}
 @media (max-width: 700px) {
+  .cv-web { padding: 1rem; }
   .cv-entry { grid-template-columns: 1fr; }
   .cv-entry-meta { text-align: left; }
   .cv-definition-list { grid-template-columns: 1fr; }
@@ -361,7 +403,7 @@
     <div class="cv-entry-subtitle">Professor at INSA Rennes &amp; IRMAR, France</div>
   </div>
   <ul class="cv-entry-list">
-    <li><a href="https://ley.perso.math.cnrs.fr/" target="_blank" rel="noopener">Homepage</a>, <a href="https://scholar.google.com/citations?hl=vi&amp;user=tgepQOkAAAAJ" target="_blank" rel="noopener">Google Scholar</a>} {olivier.ley@insa-rennes.fr</li>
+    <li><a href="https://ley.perso.math.cnrs.fr/" target="_blank" rel="noopener">Homepage</a>, <a href="https://scholar.google.com/citations?hl=vi&amp;user=tgepQOkAAAAJ" target="_blank" rel="noopener">Google Scholar</a> <a href="mailto:olivier.ley@insa-rennes.fr">olivier.ley@insa-rennes.fr</a></li>
   </ul>
 </article>
 <article class="cv-entry">
@@ -370,7 +412,7 @@
     <div class="cv-entry-subtitle">Associate Professor at INSA Rennes &amp; IRMAR, France</div>
   </div>
   <ul class="cv-entry-list">
-    <li><a href="https://irmar.univ-rennes.fr/interlocuteurs/othmane-jerhaoui" target="_blank" rel="noopener">Homepage</a>, <a href="https://orcid.org/0000-0003-0583-1615" target="_blank" rel="noopener">ORCID</a>} {othmane.jerhaoui@insa-rennes.fr</li>
+    <li><a href="https://irmar.univ-rennes.fr/interlocuteurs/othmane-jerhaoui" target="_blank" rel="noopener">Homepage</a>, <a href="https://orcid.org/0000-0003-0583-1615" target="_blank" rel="noopener">ORCID</a> <a href="mailto:othmane.jerhaoui@insa-rennes.fr">othmane.jerhaoui@insa-rennes.fr</a></li>
   </ul>
 </article>
 <article class="cv-entry">
@@ -379,7 +421,7 @@
     <div class="cv-entry-subtitle">Junior professor chair at Géosciences Rennes</div>
   </div>
   <ul class="cv-entry-list">
-    <li><a href="https://geosciences.univ-rennes.fr/interlocuteurs/helene-hivert" target="_blank" rel="noopener">Homepage</a>, <a href="https://www.researchgate.net/profile/Helene-Hivert" target="_blank" rel="noopener">ResearchGate</a>} {helene.hivert@inria.fr</li>
+    <li><a href="https://geosciences.univ-rennes.fr/interlocuteurs/helene-hivert" target="_blank" rel="noopener">Homepage</a>, <a href="https://www.researchgate.net/profile/Helene-Hivert" target="_blank" rel="noopener">ResearchGate</a> <a href="mailto:helene.hivert@inria.fr">helene.hivert@inria.fr</a></li>
   </ul>
 </article>
 <article class="cv-entry">
@@ -388,7 +430,7 @@
     <div class="cv-entry-subtitle">Professor at INSA Rennes &amp; IRMAR, France</div>
   </div>
   <ul class="cv-entry-list">
-    <li><a href="https://haddou.perso.math.cnrs.fr/" target="_blank" rel="noopener">Homepage</a>, <a href="https://scholar.google.com/citations?user=2e-UNg8AAAAJ&amp;hl=fr" target="_blank" rel="noopener">Google Scholar</a>} {mounir.haddou@insa-rennes.fr</li>
+    <li><a href="https://haddou.perso.math.cnrs.fr/" target="_blank" rel="noopener">Homepage</a>, <a href="https://scholar.google.com/citations?user=2e-UNg8AAAAJ&amp;hl=fr" target="_blank" rel="noopener">Google Scholar</a> <a href="mailto:mounir.haddou@insa-rennes.fr">mounir.haddou@insa-rennes.fr</a></li>
   </ul>
 </article></div>
 </section>
