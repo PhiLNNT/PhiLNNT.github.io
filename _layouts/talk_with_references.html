@@ -1,0 +1,14 @@
+---
+layout: single
+---
+
+{% if page.abstract %}
+<h2>Abstract</h2>
+<div class="talk-abstract">
+  {{ page.abstract | markdownify }}
+</div>
+
+{% include page_references.html %}
+{% endif %}
+
+{{ content }}
