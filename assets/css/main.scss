@@ -524,24 +524,32 @@ a:not(.btn):focus {
 }
 
 .publication-entry {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.05rem;
 }
 
 .publication-citation {
-  margin-bottom: 0.35rem;
-  line-height: 1.55;
-}
-
-.pub-title {
-  color: inherit;
+  margin: 0 0 0.18rem 0;
+  line-height: 1.5;
 }
 
 .pub-links {
-  margin-top: 0.15rem;
+  margin: 0.05rem 0 0 0;
+  line-height: 1.25;
 }
 
-.pub-links a {
-  display: inline-block;
-  margin-right: 0.65rem;
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  margin-right: 0.85rem;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.pub-link i {
+  font-size: 0.82em;
+}
+
+.pub-link:hover {
+  text-decoration: underline;
 }
