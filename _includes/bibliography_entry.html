@@ -14,37 +14,45 @@
     <span class="bib-title">{{ ref.title }}</span>.
   {% endif %}
 
-  {% if ref.journal %}
+  {% if ref.journal and ref.journal != "" %}
     <em>{{ ref.journal }}</em>.
-  {% elsif ref.booktitle %}
+  {% elsif ref.booktitle and ref.booktitle != "" %}
     <em>{{ ref.booktitle }}</em>.
+  {% elsif ref.howpublished and ref.howpublished != "" %}
+    <span>{{ ref.howpublished }}</span>.
   {% endif %}
 
-  {% if ref.volume %}
-    <span>{{ ref.volume }}</span>{% if ref.number %}<span>({{ ref.number }})</span>{% endif %}.
+  {% if ref.volume and ref.volume != "" %}
+    <span>{{ ref.volume }}</span>{% if ref.number and ref.number != "" %}<span>({{ ref.number }})</span>{% endif %}.
   {% endif %}
 
-  {% if ref.pages %}
+  {% if ref.pages and ref.pages != "" %}
     <span>{{ ref.pages }}</span>.
   {% endif %}
 
-  {% if ref.note %}
+  {% if ref.note and ref.note != "" %}
     <span>{{ ref.note }}</span>.
   {% endif %}
 
+  {% assign doi = ref.doi | default: "" | strip %}
+  {% assign url = ref.url | default: "" | strip %}
+  {% assign eprint = ref.eprint | default: "" | strip %}
+
+  {% if doi != "" or url != "" or eprint != "" %}
   <span class="bib-links">
-    {% if ref.doi %}
-      <a href="https://doi.org/{{ ref.doi }}" target="_blank" rel="noopener">DOI</a>
+    {% if doi != "" %}
+      <a href="https://doi.org/{{ doi }}" target="_blank" rel="noopener">DOI</a>
     {% endif %}
 
-    {% if ref.url %}
-      <a href="{{ ref.url }}" target="_blank" rel="noopener">Link</a>
+    {% if url != "" %}
+      <a href="{{ url }}" target="_blank" rel="noopener">Link</a>
     {% endif %}
 
-    {% if ref.eprint %}
-      <a href="https://arxiv.org/abs/{{ ref.eprint }}" target="_blank" rel="noopener">arXiv</a>
+    {% if eprint != "" %}
+      <a href="https://arxiv.org/abs/{{ eprint }}" target="_blank" rel="noopener">arXiv</a>
     {% endif %}
   </span>
+  {% endif %}
 </li>
 {% else %}
 <li class="bibliography-entry bibliography-missing">
