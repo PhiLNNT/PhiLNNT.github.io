@@ -1,0 +1,9 @@
+{%- assign publication_keys = include.keys | default: page.publication_keys -%}
+
+{%- if publication_keys and publication_keys.size > 0 -%}
+<div class="publication-list">
+  {%- for key in publication_keys -%}
+    {%- include publication_entry.html key=key -%}
+  {%- endfor -%}
+</div>
+{%- endif -%}
