@@ -527,15 +527,21 @@ a:not(.btn):focus {
   margin-bottom: 1.25rem;
 }
 
-.publication-entry p {
+.publication-citation {
   margin-bottom: 0.35rem;
+  line-height: 1.55;
 }
 
 .pub-title {
   color: inherit;
 }
 
+.pub-links {
+  margin-top: 0.15rem;
+}
+
 .pub-links a {
+  display: inline-block;
   margin-right: 0.65rem;
   font-weight: 600;
 }
