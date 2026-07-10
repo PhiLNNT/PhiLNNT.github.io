@@ -1,7 +1,6 @@
-{% assign ref = site.data.bibliography[include.key] %}
-
-{% if ref %}
+{%- assign ref = site.data.bibliography[include.key] -%}
+{%- if ref -%}
 <a href="#ref-{{ include.key }}" class="citation-link">{{ ref.label }}</a>
-{% else %}
+{%- else -%}
 <span class="citation-missing">[{{ include.key }}]</span>
-{% endif %}
+{%- endif -%}
