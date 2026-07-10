@@ -1,0 +1,53 @@
+{% assign ref = site.data.bibliography[include.key] %}
+
+{% if ref %}
+<li id="ref-{{ include.key }}" class="bibliography-entry">
+  {% if ref.author %}
+    <span class="bib-authors">{{ ref.author | join: ", " }}</span>.
+  {% endif %}
+
+  {% if ref.year %}
+    <span class="bib-year">({{ ref.year }}).</span>
+  {% endif %}
+
+  {% if ref.title %}
+    <span class="bib-title">{{ ref.title }}</span>.
+  {% endif %}
+
+  {% if ref.journal %}
+    <em>{{ ref.journal }}</em>.
+  {% elsif ref.booktitle %}
+    <em>{{ ref.booktitle }}</em>.
+  {% endif %}
+
+  {% if ref.volume %}
+    <span>{{ ref.volume }}</span>{% if ref.number %}<span>({{ ref.number }})</span>{% endif %}.
+  {% endif %}
+
+  {% if ref.pages %}
+    <span>{{ ref.pages }}</span>.
+  {% endif %}
+
+  {% if ref.note %}
+    <span>{{ ref.note }}</span>.
+  {% endif %}
+
+  <span class="bib-links">
+    {% if ref.doi %}
+      <a href="https://doi.org/{{ ref.doi }}" target="_blank" rel="noopener">DOI</a>
+    {% endif %}
+
+    {% if ref.url %}
+      <a href="{{ ref.url }}" target="_blank" rel="noopener">Link</a>
+    {% endif %}
+
+    {% if ref.eprint %}
+      <a href="https://arxiv.org/abs/{{ ref.eprint }}" target="_blank" rel="noopener">arXiv</a>
+    {% endif %}
+  </span>
+</li>
+{% else %}
+<li class="bibliography-entry bibliography-missing">
+  Missing bibliography key: <code>{{ include.key }}</code>
+</li>
+{% endif %}
