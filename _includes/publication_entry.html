@@ -1,0 +1,56 @@
+{%- assign ref = site.data.bibliography[include.key] -%}
+
+{%- if ref -%}
+<div class="publication-entry" id="pub-{{ include.key }}">
+  <p>
+    {%- if ref.author -%}
+      <span class="pub-authors">{{ ref.author | join: ", " }}</span>.
+    {%- endif -%}
+
+    {%- if ref.year -%}
+      <span class="pub-year">({{ ref.year }}).</span>
+    {%- endif -%}
+
+    {%- if ref.title -%}
+      <span class="pub-title"><strong>{{ ref.title }}</strong></span>.
+    {%- endif -%}
+
+    {%- if ref.journal and ref.journal != "" -%}
+      <em>{{ ref.journal }}</em>.
+    {%- elsif ref.booktitle and ref.booktitle != "" -%}
+      <em>{{ ref.booktitle }}</em>.
+    {%- elsif ref.howpublished and ref.howpublished != "" -%}
+      <span>{{ ref.howpublished }}</span>.
+    {%- endif -%}
+
+    {%- if ref.note and ref.note != "" -%}
+      <span>{{ ref.note }}</span>.
+    {%- endif -%}
+  </p>
+
+  <p class="pub-links">
+    {%- assign doi = ref.doi | default: "" | strip -%}
+    {%- assign url = ref.url | default: "" | strip -%}
+    {%- assign eprint = ref.eprint | default: "" | strip -%}
+    {%- assign arxiv = ref.arXiv | default: ref.arxiv | default: "" | strip -%}
+
+    {%- if doi != "" -%}
+      <a href="https://doi.org/{{ doi }}" target="_blank" rel="noopener">DOI</a>
+    {%- endif -%}
+
+    {%- if url != "" -%}
+      <a href="{{ url }}" target="_blank" rel="noopener">Link</a>
+    {%- endif -%}
+
+    {%- if eprint != "" -%}
+      <a href="https://arxiv.org/abs/{{ eprint | remove: 'arXiv:' }}" target="_blank" rel="noopener">arXiv</a>
+    {%- elsif arxiv != "" -%}
+      <a href="https://arxiv.org/abs/{{ arxiv | remove: 'arXiv:' }}" target="_blank" rel="noopener">arXiv</a>
+    {%- endif -%}
+  </p>
+</div>
+{%- else -%}
+<div class="publication-entry publication-missing">
+  Missing bibliography key: <code>{{ include.key }}</code>
+</div>
+{%- endif -%}
