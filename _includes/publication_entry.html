@@ -1,82 +1,81 @@
-{%- assign ref = site.data.bibliography[include.key] -%}
+{% assign ref = site.data.bibliography[include.key] %}
 
-{%- if ref -%}
+{% if ref %}
 <div class="publication-entry" id="pub-{{ include.key }}">
   <p class="publication-citation">
-    {%- if ref.author -%}
+    {% if ref.author %}
       <span class="pub-authors">
-        {%- for author in ref.author -%}
-          {%- assign author_html = author
+        {% for author in ref.author %}
+          {% assign author_html = author
             | replace: "Phi Hoang Tran", "<strong>Phi Hoang Tran</strong>"
             | replace: "Phi Hoang TRAN", "<strong>Phi Hoang TRAN</strong>"
             | replace: "Tran, Phi Hoang", "<strong>Tran, Phi Hoang</strong>"
             | replace: "TRAN, Phi Hoang", "<strong>TRAN, Phi Hoang</strong>"
-          -%}
-          {{ author_html }}{%- unless forloop.last -%}, {% endunless -%}
-        {%- endfor -%}
+          %}{{ author_html }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
       </span>.
-    {%- endif -%}
+    {% endif %}
 
-    {%- if ref.year and ref.year != "" %}
+    {% if ref.year and ref.year != "" %}
       <span class="pub-year">({{ ref.year }}).</span>
-    {%- endif -%}
+    {% endif %}
 
-    {%- if ref.title and ref.title != "" %}
+    {% if ref.title and ref.title != "" %}
       <span class="pub-title"><strong>{{ ref.title }}</strong></span>.
-    {%- endif -%}
+    {% endif %}
 
-    {%- if ref.journal and ref.journal != "" %}
+    {% if ref.journal and ref.journal != "" %}
       <em>{{ ref.journal }}</em>.
-    {%- elsif ref.booktitle and ref.booktitle != "" %}
+    {% elsif ref.booktitle and ref.booktitle != "" %}
       <em>{{ ref.booktitle }}</em>.
-    {%- elsif ref.howpublished and ref.howpublished != "" %}
+    {% elsif ref.howpublished and ref.howpublished != "" %}
       <span>{{ ref.howpublished }}</span>.
-    {%- endif -%}
+    {% endif %}
 
-    {%- if ref.volume and ref.volume != "" %}
-      <span>{{ ref.volume }}</span>{%- if ref.number and ref.number != "" -%}<span>({{ ref.number }})</span>{%- endif -%}.
-    {%- endif -%}
+    {% if ref.volume and ref.volume != "" %}
+      <span>{{ ref.volume }}</span>{% if ref.number and ref.number != "" %}<span>({{ ref.number }})</span>{% endif %}.
+    {% endif %}
 
-    {%- if ref.pages and ref.pages != "" %}
+    {% if ref.pages and ref.pages != "" %}
       <span>{{ ref.pages }}</span>.
-    {%- endif -%}
+    {% endif %}
 
-    {%- if ref.note and ref.note != "" %}
+    {% if ref.note and ref.note != "" %}
       <span>{{ ref.note }}</span>.
-    {%- endif -%}
+    {% endif %}
   </p>
 
-  {%- assign doi = ref.doi | default: "" | strip -%}
-  {%- assign url = ref.url | default: "" | strip -%}
-  {%- assign eprint = ref.eprint | default: "" | strip | remove: "arXiv:" | strip -%}
-  {%- assign arxiv = ref.arXiv | default: ref.arxiv | default: "" | strip | remove: "arXiv:" | strip -%}
+  {% assign doi = ref.doi | default: "" | strip %}
+  {% assign url = ref.url | default: "" | strip %}
+  {% assign eprint = ref.eprint | default: "" | strip | remove: "arXiv:" | strip %}
+  {% assign arxiv = ref.arXiv | default: ref.arxiv | default: "" | strip | remove: "arXiv:" | strip %}
 
-  {%- if doi != "" or url != "" or eprint != "" or arxiv != "" -%}
+  {% if doi != "" or url != "" or eprint != "" or arxiv != "" %}
   <p class="pub-links">
-    {%- if doi != "" -%}
-      <a href="https://doi.org/{{ doi }}" target="_blank" rel="noopener">DOI</a>
-    {%- endif -%}
+    {% if doi != "" %}
+      <a class="pub-link" href="https://doi.org/{{ doi }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i><span>DOI</span></a>
+    {% endif %}
 
-    {%- if eprint != "" -%}
-      <a href="https://arxiv.org/abs/{{ eprint }}" target="_blank" rel="noopener">arXiv</a>
-    {%- elsif arxiv != "" -%}
-      <a href="https://arxiv.org/abs/{{ arxiv }}" target="_blank" rel="noopener">arXiv</a>
-    {%- elsif url contains "arxiv.org" -%}
-      <a href="{{ url }}" target="_blank" rel="noopener">arXiv</a>
-    {%- elsif url != "" -%}
-      <a href="{{ url }}" target="_blank" rel="noopener">Link</a>
-    {%- endif -%}
+    {% if eprint != "" %}
+      <a class="pub-link" href="https://arxiv.org/abs/{{ eprint }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i><span>arXiv</span></a>
+    {% elsif arxiv != "" %}
+      <a class="pub-link" href="https://arxiv.org/abs/{{ arxiv }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i><span>arXiv</span></a>
+    {% elsif url contains "arxiv.org" %}
+      <a class="pub-link" href="{{ url }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i><span>arXiv</span></a>
+    {% elsif url != "" %}
+      <a class="pub-link" href="{{ url }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i><span>Link</span></a>
+    {% endif %}
 
-    {%- if url != "" -%}
-      {%- unless url contains "arxiv.org" -%}
-        <a href="{{ url }}" target="_blank" rel="noopener">Link</a>
-      {%- endunless -%}
-    {%- endif -%}
+    {% if url != "" %}
+      {% unless url contains "arxiv.org" %}
+        <a class="pub-link" href="{{ url }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i><span>Link</span></a>
+      {% endunless %}
+    {% endif %}
   </p>
-  {%- endif -%}
+  {% endif %}
 </div>
-{%- else -%}
+{% else %}
 <div class="publication-entry publication-missing">
   Missing bibliography key: <code>{{ include.key }}</code>
 </div>
-{%- endif -%}
+{% endif %}
