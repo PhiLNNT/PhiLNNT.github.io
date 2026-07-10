@@ -1,0 +1,914 @@
+acct13:
+  archiveprefix: ''
+  author:
+  - Achdou, Yves
+  - Camilli, Fabio
+  - Cutr\`\i, Alessandra
+  - Tchou, Nicoletta
+  booktitle: ''
+  doi: 10.1007/s00030-012-0158-1
+  eprint: ''
+  howpublished: ''
+  journal: NoDEA, Nonlinear Differ. Equ. Appl.
+  key: acct13
+  label: Achdou et al. (2013)
+  note: ''
+  number: '3'
+  pages: 413--445
+  publisher: ''
+  title: Hamilton-Jacobi equations constrained on networks
+  type: article
+  url: ''
+  volume: '20'
+  year: '2013'
+adlt19:
+  archiveprefix: ''
+  author:
+  - Achdou, Yves
+  - Dao, Manh-Khang
+  - Ley, Olivier
+  - Tchou, Nicoletta
+  booktitle: ''
+  doi: 10.3934/nhm.2019021
+  eprint: ''
+  howpublished: ''
+  journal: Netw. Heterog. Media
+  key: adlt19
+  label: Achdou et al. (2019)
+  note: ''
+  number: '3'
+  pages: 537--566
+  publisher: ''
+  title: A class of infinite horizon mean field games on networks
+  type: article
+  url: ''
+  volume: '14'
+  year: '2019'
+adlt20:
+  archiveprefix: ''
+  author:
+  - Achdou, Yves
+  - Dao, Manh-Khang
+  - Ley, Olivier
+  - Tchou, Nicoletta
+  booktitle: ''
+  doi: 10.1007/s00526-020-01816-3
+  eprint: ''
+  howpublished: ''
+  journal: Calc. Var. Partial Differ. Equ.
+  key: adlt20
+  label: Achdou et al. (2020)
+  note: Id/No 157
+  number: '5'
+  pages: '34'
+  publisher: ''
+  title: Finite horizon mean field games on networks
+  type: article
+  url: ''
+  volume: '59'
+  year: '2020'
+aot15:
+  archiveprefix: ''
+  author:
+  - Achdou, Yves
+  - Oudet, Salomé
+  - Tchou, Nicoletta
+  booktitle: ''
+  doi: 10.1051/cocv/2014054
+  eprint: ''
+  howpublished: ''
+  journal: ESAIM, Control Optim. Calc. Var.
+  key: aot15
+  label: Achdou et al. (2015)
+  note: ''
+  number: '3'
+  pages: 876--899
+  publisher: ''
+  title: Hamilton-Jacobi equations for optimal control on junctions and networks
+  type: article
+  url: ''
+  volume: '21'
+  year: '2015'
+bff79:
+  archiveprefix: ''
+  author: []
+  booktitle: ''
+  doi: 10.1007/bfb0086319
+  eprint: ''
+  howpublished: ''
+  journal: ''
+  key: bff79
+  label: ' (1980)'
+  note: ''
+  number: ''
+  pages: ''
+  publisher: Springer, Cham
+  title: Potential theory, Copenhagen 1979. Proceedings of a colloquium held in Copenhagen,
+    May 14-18, 1979
+  type: book
+  url: ''
+  volume: '787'
+  year: '1980'
+bh07:
+  archiveprefix: ''
+  author:
+  - Bressan, Alberto
+  - Hong, Yunho
+  booktitle: ''
+  doi: 10.3934/nhm.2007.2.313
+  eprint: ''
+  howpublished: ''
+  journal: Netw. Heterog. Media
+  key: bh07
+  label: Bressan and Hong (2007)
+  note: ''
+  number: '2'
+  pages: 313--331
+  publisher: ''
+  title: Optimal control problems on stratified domains
+  type: article
+  url: ''
+  volume: '2'
+  year: '2007'
+bj02:
+  archiveprefix: ''
+  author:
+  - Barles, Guy
+  - Jakobsen, Espen Robstad
+  booktitle: ''
+  doi: 10.1051/m2an:2002002
+  eprint: ''
+  howpublished: ''
+  journal: M2AN, Math. Model. Numer. Anal.
+  key: bj02
+  label: Barles and Jakobsen (2002)
+  note: ''
+  number: '1'
+  pages: 33--54
+  publisher: ''
+  title: On the convergence rate of approximation schemes for Hamilton-Jacobi-Bellman
+    equations
+  type: article
+  url: https://eudml.org/doc/194095
+  volume: '36'
+  year: '2002'
+blt24:
+  archiveprefix: ''
+  author:
+  - Guy Barles
+  - Olivier Ley
+  - Erwin Topp
+  booktitle: ''
+  doi: ''
+  eprint: ''
+  howpublished: Preprint, arXiv:2411.13126 [math.AP] (2024)
+  journal: ''
+  key: blt24
+  label: Barles et al. (2024)
+  note: ''
+  number: ''
+  pages: ''
+  publisher: ''
+  title: Nonlocal Hamilton-Jacobi Equations on a network with Kirchhoff type conditions
+  type: misc
+  url: https://arxiv.org/abs/2411.13126
+  volume: ''
+  year: '2024'
+blt25:
+  archiveprefix: ''
+  author:
+  - Guy Barles
+  - Olivier Ley
+  - Erwin Topp
+  booktitle: ''
+  doi: ''
+  eprint: ''
+  howpublished: Preprint, arXiv:2509.12848 [math.AP] (2025)
+  journal: ''
+  key: blt25
+  label: Barles et al. (2025)
+  note: ''
+  number: ''
+  pages: ''
+  publisher: ''
+  title: Degenerate Elliptic PDEs on a Network with Kirchhoff Conditions
+  type: misc
+  url: https://arxiv.org/abs/2509.12848
+  volume: ''
+  year: '2025'
+bmz09:
+  archiveprefix: ''
+  author:
+  - Bokanowski, Olivier
+  - Maroso, Stefania
+  - Zidani, Hasnaa
+  booktitle: ''
+  doi: 10.1137/08073041X
+  eprint: ''
+  howpublished: ''
+  journal: SIAM J. Numer. Anal.
+  key: bmz09
+  label: Bokanowski et al. (2009)
+  note: ''
+  number: '4'
+  pages: 3001--3026
+  publisher: ''
+  title: Some convergence results for Howard's algorithm
+  type: article
+  url: ''
+  volume: '47'
+  year: '2009'
+bp94:
+  archiveprefix: ''
+  author:
+  - Berman, Abraham
+  - Plemmons, Robert J.
+  booktitle: ''
+  doi: ''
+  eprint: ''
+  howpublished: ''
+  journal: ''
+  key: bp94
+  label: Berman and Plemmons (1994)
+  note: ''
+  number: ''
+  pages: ''
+  publisher: 'Philadelphia, PA: SIAM'
+  title: Nonnegative matrices in the mathematical sciences
+  type: book
+  url: ''
+  volume: '9'
+  year: '1994'
+brezis11:
+  archiveprefix: ''
+  author:
+  - Brezis, Haim
+  booktitle: ''
+  doi: ''
+  eprint: ''
+  howpublished: ''
+  journal: ''
+  key: brezis11
+  label: Brezis (2011)
+  note: ''
+  number: ''
+  pages: xiv+599
+  publisher: Springer, New York
+  title: Functional analysis, Sobolev spaces and partial differential equations
+  type: book
+  url: ''
+  volume: ''
+  year: '2011'
+bs91:
+  archiveprefix: ''
+  author:
+  - Barles, G.
+  - Souganidis, P. E.
+  booktitle: ''
+  doi: ''
+  eprint: ''
+  howpublished: ''
+  journal: Asymptotic Anal.
+  key: bs91
+  label: Barles and Souganidis (1991)
+  note: ''
+  number: '3'
+  pages: 271--283
+  publisher: ''
+  title: Convergence of approximation schemes for fully nonlinear second order equations
+  type: article
+  url: ''
+  volume: '4'
+  year: '1991'
+cl84:
+  archiveprefix: ''
+  author:
+  - Crandall, M. G.
+  - Lions, Pierre-Louis
+  booktitle: ''
+  doi: 10.2307/2007396
+  eprint: ''
+  howpublished: ''
+  journal: Math. Comput.
+  key: cl84
+  label: Crandall and Lions (1984)
+  note: ''
+  number: ''
+  pages: 1--19
+  publisher: ''
+  title: Two approximations of solutions of Hamilton-Jacobi equations
+  type: article
+  url: ''
+  volume: '43'
+  year: '1984'
+clm15:
+  archiveprefix: ''
+  author:
+  - Costeseque, Guillaume
+  - Lebacque, Jean-Patrick
+  - Monneau, Régis
+  booktitle: ''
+  doi: 10.1007/s00211-014-0643-z
+  eprint: ''
+  howpublished: ''
+  journal: Numer. Math.
+  key: clm15
+  label: Costeseque et al. (2015)
+  note: ''
+  number: '3'
+  pages: 405--447
+  publisher: ''
+  title: 'A convergent scheme for Hamilton-Jacobi equations on a junction: application
+    to traffic'
+  type: article
+  url: ''
+  volume: '129'
+  year: '2015'
+cm16:
+  archiveprefix: ''
+  author:
+  - Camilli, Fabio
+  - Marchi, Claudio
+  booktitle: ''
+  doi: 10.1137/15M1022082
+  eprint: ''
+  howpublished: ''
+  journal: SIAM J. Control Optim.
+  key: cm16
+  label: Camilli and Marchi (2016)
+  note: ''
+  number: '2'
+  pages: 1085--1103
+  publisher: ''
+  title: Stationary mean field games systems defined on networks
+  type: article
+  url: hdl.handle.net/11577/3192351
+  volume: '54'
+  year: '2016'
+dao19:
+  archiveprefix: ''
+  author:
+  - Dao, Manh Khang
+  booktitle: ''
+  doi: 10.1051/cocv/2018003
+  eprint: ''
+  howpublished: ''
+  journal: ESAIM, Control Optim. Calc. Var.
+  key: dao19
+  label: Dao (2019)
+  note: Id/No 15
+  number: ''
+  pages: '31'
+  publisher: ''
+  title: Hamilton-Jacobi equations for optimal control on networks with entry or exit
+    costs
+  type: article
+  url: ''
+  volume: '25'
+  year: '2019'
+dhllt26:
+  archiveprefix: ''
+  author:
+  - Aris Daniilidis
+  - Mounir Haddou
+  - Tri Minh Le
+  - Olivier Ley
+  - Phi Hoang Tran
+  booktitle: ''
+  doi: ''
+  eprint: ''
+  howpublished: Preprint, arXiv:2402.16439 [math.OC] (2026)
+  journal: ''
+  key: dhllt26
+  label: Daniilidis et al. (2026)
+  note: ''
+  number: ''
+  pages: ''
+  publisher: ''
+  title: Solving Nonlinear Absolute Value Equations
+  type: misc
+  url: https://arxiv.org/abs/2402.16439
+  volume: ''
+  year: '2026'
+evans10:
+  archiveprefix: ''
+  author:
+  - Evans, Lawrence C.
+  booktitle: ''
+  doi: 10.1090/gsm/019
+  eprint: ''
+  howpublished: ''
+  journal: ''
+  key: evans10
+  label: Evans (2010)
+  note: ''
+  number: ''
+  pages: xxii+749
+  publisher: American Mathematical Society, Providence, RI
+  title: Partial differential equations
+  type: book
+  url: https://doi.org/10.1090/gsm/019
+  volume: '19'
+  year: '2010'
+fmp99:
+  archiveprefix: ''
+  author: []
+  booktitle: ''
+  doi: ''
+  eprint: ''
+  howpublished: ''
+  journal: ''
+  key: fmp99
+  label: ' (2001)'
+  note: ''
+  number: ''
+  pages: ''
+  publisher: 'Dordrecht: Kluwer Academic Publishers'
+  title: 'Complementarity: applications, algorithms and extensions. Papers from the
+    international conference on complementarity (ICCP 99), Madison, WI, USA, June
+    9--12, 1999'
+  type: book
+  url: ''
+  volume: '50'
+  year: '2001'
+folland99:
+  archiveprefix: ''
+  author:
+  - Folland, Gerald B.
+  booktitle: ''
+  doi: ''
+  eprint: ''
+  howpublished: ''
+  journal: ''
+  key: folland99
+  label: Folland (1999)
+  note: ''
+  number: ''
+  pages: ''
+  publisher: 'New York, NY: Wiley'
+  title: Real analysis. Modern techniques and their applications.
+  type: book
+  url: ''
+  volume: ''
+  year: '1999'
+fp97:
+  archiveprefix: ''
+  author:
+  - Ferris, M. C.
+  - Pang, J. S.
+  booktitle: ''
+  doi: 10.1137/S0036144595285963
+  eprint: ''
+  howpublished: ''
+  journal: SIAM Rev.
+  key: fp97
+  label: Ferris and Pang (1997)
+  note: ''
+  number: '4'
+  pages: 669--713
+  publisher: ''
+  title: Engineering and economic applications of complementarity problems
+  type: article
+  url: ''
+  volume: '39'
+  year: '1997'
+fw93:
+  archiveprefix: ''
+  author:
+  - Freidlin, Mark I.
+  - Wentzell, Alexander D.
+  booktitle: ''
+  doi: 10.1214/aop/1176989018
+  eprint: ''
+  howpublished: ''
+  journal: Ann. Probab.
+  key: fw93
+  label: Freidlin and Wentzell (1993)
+  note: ''
+  number: '4'
+  pages: 2215--2245
+  publisher: ''
+  title: Diffusion processes on graphs and the averaging principle
+  type: article
+  url: ''
+  volume: '21'
+  year: '1993'
+gk19:
+  archiveprefix: ''
+  author:
+  - Guerand, Jessica
+  - Koumaiha, Marwa
+  booktitle: ''
+  doi: 10.1007/s00211-019-01043-9
+  eprint: ''
+  howpublished: ''
+  journal: Numer. Math.
+  key: gk19
+  label: Guerand and Koumaiha (2019)
+  note: ''
+  number: '3'
+  pages: 525--575
+  publisher: ''
+  title: Error estimates for a finite difference scheme associated with Hamilton-Jacobi
+    equations on a junction
+  type: article
+  url: https://doi.org/10.1007/s00211-019-01043-9
+  volume: '142'
+  year: '2019'
+gkt92:
+  archiveprefix: ''
+  author:
+  - Goldberg, H.
+  - Kampowsky, W.
+  - Tröltzsch, F.
+  booktitle: ''
+  doi: 10.1002/mana.19921550110
+  eprint: ''
+  howpublished: ''
+  journal: Math. Nachr.
+  key: gkt92
+  label: Goldberg et al. (1992)
+  note: ''
+  number: ''
+  pages: 127--140
+  publisher: ''
+  title: On Nemytskij operators in \(L_ p\)-spaces of abstract functions
+  type: article
+  url: ''
+  volume: '155'
+  year: '1992'
+gt01:
+  archiveprefix: ''
+  author:
+  - Gilbarg, David
+  - Trudinger, Neil S.
+  booktitle: ''
+  doi: ''
+  eprint: ''
+  howpublished: ''
+  journal: ''
+  key: gt01
+  label: Gilbarg and Trudinger (2001)
+  note: Reprint of the 1998 edition
+  number: ''
+  pages: xiv+517
+  publisher: Springer-Verlag, Berlin
+  title: Elliptic partial differential equations of second order
+  type: book
+  url: ''
+  volume: ''
+  year: '2001'
+jps19:
+  archiveprefix: ''
+  author:
+  - Jin, Yu
+  - Peng, Rui
+  - Shi, Junping
+  booktitle: ''
+  doi: 10.1007/s00332-019-09551-6
+  eprint: ''
+  howpublished: ''
+  journal: J. Nonlinear Sci.
+  key: jps19
+  label: Jin et al. (2019)
+  note: ''
+  number: '6'
+  pages: 2501--2545
+  publisher: ''
+  title: Population dynamics in river networks
+  type: article
+  url: ''
+  volume: '29'
+  year: '2019'
+karamardian69-I:
+  archiveprefix: ''
+  author:
+  - Karamardian, S.
+  booktitle: ''
+  doi: 10.1007/BF00927414
+  eprint: ''
+  howpublished: ''
+  journal: J. Optim. Theory Appl.
+  key: karamardian69-I
+  label: Karamardian (1969)
+  note: ''
+  number: ''
+  pages: 87--98
+  publisher: ''
+  title: The nonlinear complementarity problem, with applications. I
+  type: article
+  url: ''
+  volume: '4'
+  year: '1969'
+karamardian69-II:
+  archiveprefix: ''
+  author:
+  - Karamardian, S.
+  booktitle: ''
+  doi: 10.1007/BF00930577
+  eprint: ''
+  howpublished: ''
+  journal: J. Optim. Theory Appl.
+  key: karamardian69-II
+  label: Karamardian (1969)
+  note: ''
+  number: ''
+  pages: 167--181
+  publisher: ''
+  title: The nonlinear complementarity problem with applications. II
+  type: article
+  url: ''
+  volume: '4'
+  year: '1969'
+karamardian72:
+  archiveprefix: ''
+  author:
+  - Karamardian, S.
+  booktitle: ''
+  doi: 10.1007/BF01584538
+  eprint: ''
+  howpublished: ''
+  journal: Math. Program.
+  key: karamardian72
+  label: Karamardian (1972)
+  note: ''
+  number: ''
+  pages: 107--129
+  publisher: ''
+  title: The complementarity problem
+  type: article
+  url: ''
+  volume: '2'
+  year: '1972'
+kfms07:
+  archiveprefix: ''
+  author:
+  - Kramar Fijav\vz, Marjeta
+  - Mugnolo, Delio
+  - Sikolya, Eszter
+  booktitle: ''
+  doi: 10.1007/s00245-006-0887-9
+  eprint: ''
+  howpublished: ''
+  journal: Appl. Math. Optim.
+  key: kfms07
+  label: Kramar Fijav\vz et al. (2007)
+  note: ''
+  number: '2'
+  pages: 219--240
+  publisher: ''
+  title: Variational and semigroup methods for waves and diffusion in networks
+  type: article
+  url: ''
+  volume: '55'
+  year: '2007'
+lang93:
+  archiveprefix: ''
+  author:
+  - Lang, Serge
+  booktitle: ''
+  doi: ''
+  eprint: ''
+  howpublished: ''
+  journal: ''
+  key: lang93
+  label: Lang (1993)
+  note: ''
+  number: ''
+  pages: ''
+  publisher: 'New York: Springer-Verlag'
+  title: Real and functional analysis.
+  type: book
+  url: ''
+  volume: '142'
+  year: '1993'
+ls16:
+  archiveprefix: ''
+  author:
+  - Lions, Pierre-Louis
+  - Souganidis, Panagiotis
+  booktitle: ''
+  doi: 10.4171/RLM/747
+  eprint: ''
+  howpublished: ''
+  journal: Atti Accad. Naz. Lincei, Cl. Sci. Fis. Mat. Nat., IX. Ser., Rend. Lincei,
+    Mat. Appl.
+  key: ls16
+  label: Lions and Souganidis (2016)
+  note: ''
+  number: '4'
+  pages: 535--545
+  publisher: ''
+  title: 'Viscosity solutions for junctions: well posedness and stability'
+  type: article
+  url: ''
+  volume: '27'
+  year: '2016'
+ls17:
+  archiveprefix: ''
+  author:
+  - Lions, Pierre-Louis
+  - Souganidis, Panagiotis E.
+  booktitle: ''
+  doi: 10.4171/RLM/786
+  eprint: ''
+  howpublished: ''
+  journal: Atti Accad. Naz. Lincei, Cl. Sci. Fis. Mat. Nat., IX. Ser., Rend. Lincei,
+    Mat. Appl.
+  key: ls17
+  label: Lions and Souganidis (2017)
+  note: ''
+  number: '4'
+  pages: 807--816
+  publisher: ''
+  title: Well-posedness for multi-dimensional junction problems with Kirchoff-type
+    conditions
+  type: article
+  url: ''
+  volume: '28'
+  year: '2017'
+lumer80:
+  archiveprefix: ''
+  author:
+  - Lumer, G.
+  booktitle: Potential theory, Copenhagen 1979 (Proc. Colloq., Copenhagen, 1979)
+  doi: ''
+  eprint: ''
+  howpublished: ''
+  journal: ''
+  key: lumer80
+  label: Lumer (1980)
+  note: ''
+  number: ''
+  pages: 219--234
+  publisher: Springer, Berlin
+  title: Connecting of local operators and evolution equations on networks
+  type: incollection
+  url: ''
+  volume: '787'
+  year: '1980'
+lw55:
+  archiveprefix: ''
+  author:
+  - Lighthill, M. J.
+  - Whitham, G. B.
+  booktitle: ''
+  doi: 10.1098/rspa.1955.0089
+  eprint: ''
+  howpublished: ''
+  journal: Proc. R. Soc. Lond., Ser. A
+  key: lw55
+  label: Lighthill and Whitham (1955)
+  note: ''
+  number: ''
+  pages: 317--345
+  publisher: ''
+  title: On kinematic waves. II. A theory of traffic flow on long crowded roads
+  type: article
+  url: ''
+  volume: '229'
+  year: '1955'
+morfe20:
+  archiveprefix: ''
+  author:
+  - Morfe, Peter S.
+  booktitle: ''
+  doi: 10.1007/s00030-020-0615-1
+  eprint: ''
+  howpublished: ''
+  journal: NoDEA Nonlinear Differential Equations Appl.
+  key: morfe20
+  label: Morfe (2020)
+  note: ''
+  number: '1'
+  pages: Paper No. 10, 69
+  publisher: ''
+  title: Convergence & rates for Hamilton-Jacobi equations with Kirchoff junction
+    conditions
+  type: article
+  url: https://doi.org/10.1007/s00030-020-0615-1
+  volume: '27'
+  year: '2020'
+mugnolo07:
+  archiveprefix: ''
+  author:
+  - Mugnolo, Delio
+  booktitle: ''
+  doi: 10.3934/nhm.2007.2.55
+  eprint: ''
+  howpublished: ''
+  journal: Netw. Heterog. Media
+  key: mugnolo07
+  label: Mugnolo (2007)
+  note: ''
+  number: '1'
+  pages: 55--79
+  publisher: ''
+  title: Gaussian estimates for a heat equation on a network
+  type: article
+  url: https://doi.org/10.3934/nhm.2007.2.55
+  volume: '2'
+  year: '2007'
+nugari88:
+  archiveprefix: ''
+  author:
+  - Nugari, Rita
+  booktitle: ''
+  doi: 10.1017/S0017089500007023
+  eprint: ''
+  howpublished: ''
+  journal: Glasg. Math. J.
+  key: nugari88
+  label: Nugari (1988)
+  note: ''
+  number: '1'
+  pages: 59--65
+  publisher: ''
+  title: Continuity and differentiability properties of the Nemitskii operator in
+    Hölder spaces
+  type: article
+  url: ''
+  volume: '30'
+  year: '1988'
+richards56:
+  archiveprefix: ''
+  author:
+  - Richards, Paul I.
+  booktitle: ''
+  doi: 10.1287/opre.4.1.42
+  eprint: ''
+  howpublished: ''
+  journal: Oper. Res.
+  key: richards56
+  label: Richards (1956)
+  note: ''
+  number: '1'
+  pages: 42--51
+  publisher: ''
+  title: Shock waves on the highway
+  type: article
+  url: ''
+  volume: '4'
+  year: '1956'
+sca14:
+  archiveprefix: ''
+  author:
+  - Sarhad, Jonathan
+  - Carlson, Robert
+  - Anderson, Kurt E.
+  booktitle: ''
+  doi: 10.1007/s00285-013-0710-6
+  eprint: ''
+  howpublished: ''
+  journal: J. Math. Biol.
+  key: sca14
+  label: Sarhad et al. (2014)
+  note: ''
+  number: '2'
+  pages: 401--448
+  publisher: ''
+  title: Population persistence in river networks
+  type: article
+  url: www.escholarship.org/uc/item/7b28d539
+  volume: '69'
+  year: '2014'
+vasilyeva19:
+  archiveprefix: ''
+  author:
+  - Vasilyeva, Olga
+  booktitle: ''
+  doi: 10.1007/s00285-019-01350-7
+  eprint: ''
+  howpublished: ''
+  journal: J. Math. Biol.
+  key: vasilyeva19
+  label: Vasilyeva (2019)
+  note: ''
+  number: '1'
+  pages: 63--100
+  publisher: ''
+  title: 'Population dynamics in river networks: analysis of steady states'
+  type: article
+  url: ''
+  volume: '79'
+  year: '2019'
+vonbelow88:
+  archiveprefix: ''
+  author:
+  - Joachim von Below
+  booktitle: ''
+  doi: https://doi.org/10.1016/0022-0396(88)90158-1
+  eprint: ''
+  howpublished: ''
+  journal: Journal of Differential Equations
+  key: vonbelow88
+  label: Below (1988)
+  note: ''
+  number: '2'
+  pages: 316-337
+  publisher: ''
+  title: Classical solvability of linear parabolic equations on networks
+  type: article
+  url: https://www.sciencedirect.com/science/article/pii/0022039688901581
+  volume: '72'
+  year: '1988'
