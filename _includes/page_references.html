@@ -1,0 +1,12 @@
+{% assign reference_keys = page.references %}
+
+{% if reference_keys and reference_keys.size > 0 %}
+<div class="page-references">
+  <h2>References</h2>
+  <ol class="bibliography-list">
+    {% for key in reference_keys %}
+      {% include bibliography_entry.html key=key %}
+    {% endfor %}
+  </ol>
+</div>
+{% endif %}
