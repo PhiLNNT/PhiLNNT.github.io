@@ -495,3 +495,30 @@ a:not(.btn):focus {
   opacity: 0;
   pointer-events: none;
 }
+
+.page-references {
+  margin-top: 1.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--global-border-color, rgba(128, 128, 128, 0.3));
+}
+
+.page-references h2 {
+  margin-top: 0;
+}
+
+.bibliography-list {
+  padding-left: 1.25rem;
+}
+
+.bibliography-entry {
+  margin-bottom: 0.7rem;
+}
+
+.bib-title {
+  font-weight: 600;
+}
+
+.bib-links a,
+.citation-link {
+  margin-left: 0.25rem;
+}
