@@ -522,3 +522,20 @@ a:not(.btn):focus {
 .citation-link {
   margin-left: 0.25rem;
 }
+
+.publication-entry {
+  margin-bottom: 1.25rem;
+}
+
+.publication-entry p {
+  margin-bottom: 0.35rem;
+}
+
+.pub-title {
+  color: inherit;
+}
+
+.pub-links a {
+  margin-right: 0.65rem;
+  font-weight: 600;
+}
